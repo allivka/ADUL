@@ -7,7 +7,6 @@
 #include <iostream>
 
 #include "timeManager.hpp"
-#include "compileSettings.hpp"
 
 namespace adul {
 
@@ -16,7 +15,10 @@ protected:
     tManager::Timer timer;
 public:
     std::string dir;
-
+    
+    bool flagUseConsoleLogs;
+    bool flagUseFileLogs;
+    
     Logs();
 
     Logs(const std::string& p_dir);

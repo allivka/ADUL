@@ -1,9 +1,9 @@
-#include "../headers/timeManager.hpp"
+#include "../include/timeManager.hpp"
 
 namespace adul {
 
 size_t tManager::millis() {
-    return chrono::duration_cast<chrono::milliseconds>(chrono::system_clock::now().time_since_epoch()).count();
+    return chrono::duration_cast<chrono::milliseconds>(chrono::steady_clock::now().time_since_epoch()).count();
 }
 
 void tManager::delay(const size_t& time) {

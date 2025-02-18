@@ -1,4 +1,4 @@
-#include "../headers/math.hpp"
+#include "../include/math.hpp"
 namespace adul {
 
 long double Math::getVectorLength(const sf::Vector2<long double>& vec) {

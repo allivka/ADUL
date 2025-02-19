@@ -92,7 +92,7 @@ include(GNUInstallDirs)  # Add this line
 # Install headers
 install(DIRECTORY include/ 
     DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
-    FILES_MATCHING PATTERN "*.h"
+    FILES_MATCHING PATTERN "*.hpp"
 )
 
 # Install shared library

@@ -11,7 +11,7 @@ Logs::Logs() {
 
 }
 
-Logs::Logs(const std::string& p_dir) : dir(p_dir) {
+Logs::Logs(char * p_dir) : dir(p_dir) {
     
     if(flagUseFileLogs) {
         std::fstream(dir, std::ios::out);

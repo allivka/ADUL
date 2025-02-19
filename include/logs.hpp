@@ -21,7 +21,7 @@ public:
     
     Logs();
 
-    Logs(const std::string& p_dir);
+    Logs(char* p_dir);
 
     void push(const std::string& message) const;
 

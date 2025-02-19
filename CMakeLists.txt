@@ -3,7 +3,7 @@ project(
     ADUL
     VERSION 1.0.0
     LANGUAGES CXX
-    DESCRIPTION "Advanced C++ Utility Library"
+    DESCRIPTION "Alivka's Different Utilities Library"
 )
 
 # ----------------------------

@@ -3,7 +3,6 @@
 namespace adul {
 
 
-
 Logger::Logger() {
     
 }

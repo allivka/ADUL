@@ -40,7 +40,7 @@ endif()
 # ----------------------------
 add_library(ADUL_objects OBJECT 
     sources/tinyxml2.cpp
-    sources/logs.cpp
+    sources/logger.cpp
     sources/timeManager.cpp
 )
 

@@ -8,7 +8,7 @@ Logger::Logger() {
     
 }
 
-void Logger::addStream(const std::basic_ostream<char>& p_stream) {
+void Logger::addStream(std::basic_ostream<char>& p_stream) {
     streams.emplace_back(p_stream);
 }
 
@@ -58,4 +58,6 @@ void Logger::push(const std::exception& err) const {
         streams[i].get() << "[Time(s'ms): " << (timer.getCurDur() / 1000) << "'" << (timer.getCurDur() % 1000) << "]-> " 
         << err.what() << '\n';
     }
+}
+
 }

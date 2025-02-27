@@ -22,7 +22,7 @@ public:
     
     Logger();
 
-    void addStream(const std::basic_ostream<char>& p_stream);
+    void addStream(std::basic_ostream<char>& p_stream);
     
     void clearStreams();
     

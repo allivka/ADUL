@@ -41,7 +41,7 @@ endif()
 add_library(ADUL_objects OBJECT 
     sources/tinyxml2.cpp
     sources/logger.cpp
-    sources/timeManager.cpp
+    sources/time.cpp
     sources/exceptions.cpp
 )
 

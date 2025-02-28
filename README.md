@@ -28,4 +28,4 @@ This project is licensed under the MIT License.
 
 # Third-Party Licenses
 This project includes [tinyxml2](https://github.com/leethomason/tinyxml2), 
-which is licensed under the zlib License. See [LICENSE-TINYXML2](LICENSE-TINYXML2) for details.
+which is licensed under the zlib License. See [LICENSE-TINYXML2](LICENSE-TINYXML2.txt) for details.

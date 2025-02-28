@@ -21,3 +21,11 @@ Notes:
     I put it here cause it is compact and i would like to keep it in easy access
     
 2. exceptions classes inherit from std::exception STL class
+
+# License
+This project is licensed under the MIT License.  
+**If you use this library, you must include the MIT license and this notice in your project.**
+
+# Third-Party Licenses
+This project includes [tinyxml2](https://github.com/leethomason/tinyxml2), 
+which is licensed under the zlib License. See [LICENSE-TINYXML2](LICENSE-TINYXML2) for details.

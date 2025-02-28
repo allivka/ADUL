@@ -1,13 +1,13 @@
-#ifndef LOGS_HPP
-#define LOGS_HPP
+#ifndef ADUL_LOGS_HPP
+#define ADUL_LOGS_HPP
 
 #include <string>
 #include <iostream>
 #include <vector>
 #include <functional>
 
-#include "timeManager.hpp"
-
+#include "time.hpp"
+#include "exceptions.hpp"
 namespace adul {
 
 class Logger {
@@ -15,7 +15,7 @@ class Logger {
 //This "Logger" class basically prints the messages to all the streams in "streams" vector if the object is "activated"
     
 protected:
-    tManager::Timer timer;
+    time::Clock clock;
     std::vector<std::reference_wrapper<std::ostream>> streams;
     bool isActive = false;
 public:
@@ -32,13 +32,11 @@ public:
     
     bool isActivated() const;
     
-    void push(const std::string& message) const;
-
     void push(const char *message) const;
     
     void push(const std::exception& err) const;
 };
 
-}
+};
 
 #endif

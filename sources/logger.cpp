@@ -3,9 +3,7 @@
 namespace adul {
 
 
-Logger::Logger() {
-    
-}
+Logger::Logger() { }
 
 void Logger::addStream(std::basic_ostream<char>& p_stream) {
     streams.emplace_back(p_stream);
@@ -16,12 +14,12 @@ void Logger::clearStreams() {
 }
 
 void Logger::start() {
-    timer.start();
+    clock.start();
     isActive = 1;
 }
 
 void Logger::stop() {
-    timer.stop();
+    clock.stop();
     isActive = 0;
 }
 
@@ -29,34 +27,19 @@ bool Logger::isActivated() const {
     return isActive;
 }
 
-void Logger::push(const std::string& message) const {
-    if(!isActive) return;
-    
-    for(uint64_t i = 0; i < streams.size(); i++) {
-        if(streams[i].get().good()) continue;
-        streams[i].get() << "[Time(s'ms): " << (timer.getCurDur() / 1000) << "'" << (timer.getCurDur() % 1000) << "]-> " << message << '\n';
-    }
-}
-
 void Logger::push(const char *message) const {
-    if(!isActive) return;
+    if(!isActive) throw exceptions::Message("!Error! Logger is not activated!\n");
     
     for(uint64_t i = 0; i < streams.size(); i++) {
         if(streams[i].get().good()) continue;
-        streams[i].get() << "[Time(s'ms): " << (timer.getCurDur() / 1000) << "'" << (timer.getCurDur() % 1000) << "]-> " 
+        streams[i].get() << "[Time(s'ms): " << std::chrono::duration_cast<std::chrono::seconds>(clock.timeElapsed()).count() << "'" << 
+        std::chrono::duration_cast<std::chrono::milliseconds>(clock.timeElapsed()).count() << "]-> " 
         << message << '\n';
     }
 }
 
-void Logger::push(const std::exception& err) const {
-
-    if(!isActive) return;
-        
-    for(uint64_t i = 0; i < streams.size(); i++) {
-        if(streams[i].get().good()) continue;
-        streams[i].get() << "[Time(s'ms): " << (timer.getCurDur() / 1000) << "'" << (timer.getCurDur() % 1000) << "]-> " 
-        << err.what() << '\n';
-    }
+void Logger::push(const std::exception& msg) const {
+    Logger::push(msg.what());
 }
 
 }

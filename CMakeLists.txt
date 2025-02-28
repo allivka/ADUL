@@ -42,6 +42,7 @@ add_library(ADUL_objects OBJECT
     sources/tinyxml2.cpp
     sources/logger.cpp
     sources/timeManager.cpp
+    sources/exceptions.cpp
 )
 
 # Force PIC for object library

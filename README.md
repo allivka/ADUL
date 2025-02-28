@@ -1,4 +1,6 @@
 # ADUL
+
+# Main points
 Main points:
 
 1. This library name stands by Alivka's Different Utilities Library.
@@ -10,7 +12,9 @@ Main points:
     2) logger utility that provide convenient interface for printing logs to any output stream
     3) time utility for time managing and measuring
     4) compilation of some maybe useful exceptions classes
-  
+
+
+# Notes
 Notes:
 
 1. tinyxml2 is not my library, but I find it very useful!

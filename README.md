@@ -1,4 +1,5 @@
 # ADUL
+What is ADUL? Now ADUL is just compilation of some small utilities that I am going to use during the development of my projects
 
 # Main points
 Main points:
@@ -20,7 +21,7 @@ Notes:
 1. tinyxml2 is not my library, but I find it very useful!
     I put it here cause it is compact and i would like to keep it in easy access
     
-2. exceptions classes inherit from std::exception STL class
+2. It's better to include only "include/ADUL.hpp" header froom all the headers in the project
 
 # License
 This project is licensed under the MIT License.  

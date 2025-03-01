@@ -1,9 +1,9 @@
 #ifndef ADUL_HPP
 #define ADUL_HPP
 
-#include "exceptions.hpp"
-#include "logger.hpp"
-#include "time.hpp"
-#include "tinyxml2.hpp"
+#include "ADUL/exceptions.hpp"
+#include "ADUL/logger.hpp"
+#include "ADUL/time.hpp"
+#include "ADUL/tinyxml2.hpp"
 
 #endif

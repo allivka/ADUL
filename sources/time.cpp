@@ -28,7 +28,7 @@ namespace adul::time {
     
     chrono::steady_clock::duration DurationsClock::getCurrentDuration() const {
         if(flagReady) return currentDuration + (chrono::steady_clock::now() - startPoint);
-        else throw exceptions::Message("!Erro! Clock is not ready!\n");
+        else throw exceptions::Message("!Error! Clock is not ready!\n");
     }
     
     void DurationsClock::pauseCurrentDuration() {
@@ -37,6 +37,7 @@ namespace adul::time {
     }
     
     void DurationsClock::continueCurrentDuration() {
+        startPoint = chrono::steady_clock::now();
         flagReady = true;
     }
     

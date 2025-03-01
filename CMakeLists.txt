@@ -9,8 +9,8 @@ project(
 # ----------------------------
 # Build Configuration Options
 # ----------------------------
-option(BUILD_SHARED_LIBS "Build shared libraries" ON)
-option(BUILD_STATIC_LIBS "Build static libraries" ON)
+option(ADUL_BUILD_SHARED_LIBS "Build shared libraries" ON)
+option(ADUL_BUILD_STATIC_LIBS "Build static libraries" ON)
 
 # ----------------------------
 # Compiler Settings
@@ -36,13 +36,11 @@ else()
 endif()
 
 # ----------------------------
-# Object Library (Critical Fix)
+# Object Library 
 # ----------------------------
-add_library(ADUL_objects OBJECT 
-    sources/tinyxml2.cpp
-    sources/logger.cpp
-    sources/time.cpp
-    sources/exceptions.cpp
+
+file(GLOB ADUL_sources "sources/*.cpp")
+add_library(ADUL_objects OBJECT ${ADUL_sources}
 )
 
 # Force PIC for object library
@@ -57,9 +55,9 @@ target_include_directories(ADUL_objects
 )
 
 # ----------------------------
-# Shared Library (Key Change)
+# Shared Library 
 # ----------------------------
-if(BUILD_SHARED_LIBS)
+if(ADUL_BUILD_SHARED_LIBS)
     add_library(ADUL_shared SHARED $<TARGET_OBJECTS:ADUL_objects>)
     
     set_target_properties(ADUL_shared PROPERTIES
@@ -77,7 +75,7 @@ endif()
 # ----------------------------
 # Static Library
 # ----------------------------
-if(BUILD_STATIC_LIBS)
+if(ADUL_BUILD_STATIC_LIBS)
     add_library(ADUL_static STATIC $<TARGET_OBJECTS:ADUL_objects>)
     set_target_properties(ADUL_static PROPERTIES
         OUTPUT_NAME ADUL
@@ -97,7 +95,7 @@ install(DIRECTORY include/
 )
 
 # Install shared library
-if(BUILD_SHARED_LIBS)
+if(ADUL_BUILD_SHARED_LIBS)
     install(TARGETS ADUL_shared
         EXPORT ADULTargets
         ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
@@ -107,7 +105,7 @@ if(BUILD_SHARED_LIBS)
 endif()
 
 # Install static library
-if(BUILD_STATIC_LIBS)
+if(ADUL_BUILD_STATIC_LIBS)
     install(TARGETS ADUL_static
         EXPORT ADULTargets
         ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}

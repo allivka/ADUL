@@ -12,12 +12,13 @@ namespace adul {
 
 class Logger {
 
-//This "Logger" class basically prints the messages to all the streams in "streams" vector if the object is "activated"
+//This "Logger" class basically prints the messages to all the streams in "streams" vector if the object is "isReady" and "isActive"
     
 protected:
     time::Clock clock;
     std::vector<std::reference_wrapper<std::ostream>> streams;
-    bool isActive = false;
+    bool flagReady = false;
+    bool flagActive = true;
 public:
     
     Logger();
@@ -30,7 +31,13 @@ public:
     
     void stop();
     
-    bool isActivated() const;
+    bool isReady() const;
+    
+    void activate();
+    
+    void deActivate();
+    
+    bool isActive() const;
     
     void push(const char *message) const;
     

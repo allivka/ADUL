@@ -15,20 +15,33 @@ void Logger::clearStreams() {
 
 void Logger::start() {
     clock.start();
-    isActive = 1;
+    flagReady = 1;
 }
 
 void Logger::stop() {
     clock.stop();
-    isActive = 0;
+    flagReady = 0;
 }
 
-bool Logger::isActivated() const {
-    return isActive;
+bool Logger::isReady() const {
+    return flagReady;
+}
+
+void Logger::activate() {
+    flagActive = true;
+}
+
+void Logger::deActivate() {
+    flagActive = false;
+}
+
+bool Logger::isActive() const {
+    return flagActive;
 }
 
 void Logger::push(const char *message) const {
-    if(!isActive) throw exceptions::Message("!Error! Logger is not activated!\n");
+    if(!flagActive) return;
+    if(!flagReady) throw exceptions::Message("!Error! Logger is not ready!\n");
     
     for(uint64_t i = 0; i < streams.size(); i++) {
         if(streams[i].get().good()) continue;

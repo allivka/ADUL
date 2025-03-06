@@ -10,7 +10,7 @@ Main points:
 4. These utilities aren't really well written but may be useful in some scenarios
 5. List of working utilities:
     1) tinyxml2 library source files for working with .xml format files
-    2) logger utility that provide convenient interface for printing logs to any output stream
+    2) logger utility that provides convenient interface for printing logs to any output stream
     3) time utility for time managing and measuring
     4) compilation of some maybe useful exceptions classes
 
@@ -20,8 +20,15 @@ Notes:
 
 1. tinyxml2 is not my library, but I find it very useful!
     I put it here cause it is compact and i would like to keep it in easy access
-    
 2. It's better to include only "include/ADUL.hpp" header from all the available headers in the project
+3. Time utility is wrapper for STL steady_clock
+
+# To-do and plans
+1. Creating documentation for the project via dox++ tool
+
+# Possible plans
+1. Adding implementations of some algorithms and data structures
+(only possible plan because some of them are already implemented in STL)
 
 # License
 This project is licensed under the MIT License.  

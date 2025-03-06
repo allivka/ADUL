@@ -1,5 +1,5 @@
 # ADUL
-What is ADUL? Now ADUL is just compilation of some small utilities written by me or taken from other places
+What is ADUL? Now ADUL is just a compilation of some small utilities written by me or taken from other places. In theory they can be useful in any project
 
 # Latest stable version: ???
 

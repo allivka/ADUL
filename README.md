@@ -25,7 +25,7 @@ Utilities:
 Notes:
 1. tinyxml2 is not my library, but I find it very useful!
     I put it here cause it is compact and i would like to keep it in easy access
-2. It's better to include only "include/ADUL.hpp" header from all the available headers in the project
+2. It's better to include only "include/ADUL.hpp" header to get acces to the api
 3. Time utility is wrapper for STL steady_clock
 
 # To-do and plans

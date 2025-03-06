@@ -38,11 +38,16 @@ To-do and plans:
 Possible plans:
 1. Adding implementations of some algorithms and data structures
 (only possible plan because some of them are already implemented in STL)
+2. Creating tests for the project
+(small chance that i will do it because i am just the definition of word laziness)
 
 # License
-This project is licensed under the MIT License.  
+This project is licensed under the MIT License.
+See [LICENSE](LICENSE) for details.
 
-
-# Third-Party Licenses
+# Third-Party Sources
 This project includes [tinyxml2](https://github.com/leethomason/tinyxml2), 
-which is licensed under the zlib License. See [LICENSE-TINYXML2](LICENSE-TINYXML2.txt) for details.
+which is licensed under the zlib License. See [LICENSE-TINYXML2](LICENSE-TINYXML2) for details.
+
+#Third-Party Sources documentations
+See [tinyxml2 online documentation](https://leethomason.github.io/tinyxml2/)

@@ -12,15 +12,15 @@ Main points:
 # Utilities
 
 Utilities:
-    1. tinyxml2 library source files for working with .xml format files
-    2. logger utility that provides convenient interface for printing logs to any output stream
-    3. time utility for time managing and measuring
-    4. compilation of some maybe useful exceptions classes
+1. tinyxml2 library source files for working with .xml format files
+2. logger utility that provides convenient interface for printing logs to any output stream
+3. time utility for time managing and measuring
+4. compilation of some maybe useful exceptions classes
 
 
 # Notes
-Notes:
 
+Notes:
 1. tinyxml2 is not my library, but I find it very useful!
     I put it here cause it is compact and i would like to keep it in easy access
 2. It's better to include only "include/ADUL.hpp" header from all the available headers in the project
@@ -39,7 +39,7 @@ Possible plans:
 
 # License
 This project is licensed under the MIT License.  
-**If you use this library, you must include the MIT license and this notice in your project.**
+
 
 # Third-Party Licenses
 This project includes [tinyxml2](https://github.com/leethomason/tinyxml2), 

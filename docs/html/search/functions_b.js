@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['what_0',['what',['../classadul_1_1exceptions_1_1Message.html#af7e0f36e822c52eb1e2aca12f9cff1b0',1,'adul::exceptions::Message::what()'],['../classadul_1_1exceptions_1_1FailedXMLFile.html#a4b7ef4891388a18263bae0ce9ef99dcc',1,'adul::exceptions::FailedXMLFile::what()'],['../classadul_1_1exceptions_1_1FailedReadingXMLFile.html#acaf985d2f2672f0a60dafdb56f3812b5',1,'adul::exceptions::FailedReadingXMLFile::what()'],['../classadul_1_1exceptions_1_1FailedWritingXMLFile.html#a33f83c32b5c4c1bd0d7f02143cdd0fcc',1,'adul::exceptions::FailedWritingXMLFile::what()']]]
+];

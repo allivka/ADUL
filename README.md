@@ -25,8 +25,12 @@ Utilities:
 Notes:
 1. tinyxml2 is not my library, but I find it very useful!
     I put it here cause it is compact and i would like to keep it in easy access
-2. It's better to include only "include/ADUL.hpp" header to get acces to the api
+2. It's better to include only "include/ADUL.hpp" header to get access to the api
 3. Time utility is wrapper for STL steady_clock
+
+# Documentation
+
+To get documentation you need to open docs/html/index.html via your browser
 
 # To-do and plans
 
@@ -43,7 +47,29 @@ Possible plans:
 
 # License
 This project is licensed under the MIT License.
-See [LICENSE](LICENSE) for details.
+
+MIT License
+
+Copyright (c) 2025 Alivka
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 
 # Third-Party Sources
 This project includes [tinyxml2](https://github.com/leethomason/tinyxml2), 

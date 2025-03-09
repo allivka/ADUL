@@ -30,7 +30,7 @@ Notes:
 
 # Documentation
 
-To get documentation you need to open docs/html/index.html via your browser
+To get documentation you need to open docs/html/index.html or index.html soft link via your browser
 
 # To-do and plans
 

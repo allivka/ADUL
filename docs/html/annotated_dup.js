@@ -2,15 +2,18 @@ var annotated_dup =
 [
     [ "adul", "namespaceadul.html", [
       [ "exceptions", "namespaceadul_1_1exceptions.html", [
-        [ "FailedReadingXMLFile", "classadul_1_1exceptions_1_1FailedReadingXMLFile.html", "classadul_1_1exceptions_1_1FailedReadingXMLFile" ],
-        [ "FailedWritingXMLFile", "classadul_1_1exceptions_1_1FailedWritingXMLFile.html", "classadul_1_1exceptions_1_1FailedWritingXMLFile" ],
-        [ "FailedXMLFile", "classadul_1_1exceptions_1_1FailedXMLFile.html", "classadul_1_1exceptions_1_1FailedXMLFile" ],
-        [ "Message", "classadul_1_1exceptions_1_1Message.html", "classadul_1_1exceptions_1_1Message" ]
+        [ "FailedReadingXMLFile", "classadul_1_1exceptions_1_1_failed_reading_x_m_l_file.html", "classadul_1_1exceptions_1_1_failed_reading_x_m_l_file" ],
+        [ "FailedWritingXMLFile", "classadul_1_1exceptions_1_1_failed_writing_x_m_l_file.html", "classadul_1_1exceptions_1_1_failed_writing_x_m_l_file" ],
+        [ "FailedXMLFile", "classadul_1_1exceptions_1_1_failed_x_m_l_file.html", "classadul_1_1exceptions_1_1_failed_x_m_l_file" ],
+        [ "Message", "classadul_1_1exceptions_1_1_message.html", "classadul_1_1exceptions_1_1_message" ]
+      ] ],
+      [ "logs", "namespaceadul_1_1logs.html", [
+        [ "Logger", "classadul_1_1logs_1_1_logger.html", "classadul_1_1logs_1_1_logger" ]
       ] ],
       [ "time", "namespaceadul_1_1time.html", [
-        [ "Clock", "classadul_1_1time_1_1Clock.html", "classadul_1_1time_1_1Clock" ],
-        [ "DurationsClock", "classadul_1_1time_1_1DurationsClock.html", "classadul_1_1time_1_1DurationsClock" ]
-      ] ],
-      [ "Logger", "classadul_1_1Logger.html", "classadul_1_1Logger" ]
-    ] ]
+        [ "Clock", "classadul_1_1time_1_1_clock.html", "classadul_1_1time_1_1_clock" ],
+        [ "DurationsClock", "classadul_1_1time_1_1_durations_clock.html", "classadul_1_1time_1_1_durations_clock" ]
+      ] ]
+    ] ],
+    [ "Logger", "classadul_1_1_logger.html", null ]
 ];

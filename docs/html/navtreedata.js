@@ -25,18 +25,16 @@
 var NAVTREE =
 [
   [ "ADUL", "index.html", [
-    [ "ADUL", "md_README.html", [
-      [ "Latest stable version: ???", "md_README.html#autotoc_md1", null ],
-      [ "Main points", "md_README.html#autotoc_md2", null ],
-      [ "Utilities", "md_README.html#autotoc_md3", null ],
-      [ "Notes", "md_README.html#autotoc_md4", null ],
-      [ "Documentation", "md_README.html#autotoc_md5", null ],
-      [ "To-do and plans", "md_README.html#autotoc_md6", null ],
-      [ "Possible plans", "md_README.html#autotoc_md7", null ],
-      [ "License", "md_README.html#autotoc_md8", null ],
-      [ "Third-Party Sources", "md_README.html#autotoc_md9", null ],
-      [ "Third-Party Sources documentations", "md_README.html#autotoc_md10", null ]
-    ] ],
+    [ "Latest stable version: ???", "index.html#autotoc_md1", null ],
+    [ "Main points", "index.html#autotoc_md2", null ],
+    [ "Utilities", "index.html#autotoc_md3", null ],
+    [ "Notes", "index.html#autotoc_md4", null ],
+    [ "Documentation", "index.html#autotoc_md5", null ],
+    [ "To-do and plans", "index.html#autotoc_md6", null ],
+    [ "Possible plans", "index.html#autotoc_md7", null ],
+    [ "License", "index.html#autotoc_md8", null ],
+    [ "Third-Party Sources", "index.html#autotoc_md9", null ],
+    [ "Third-Party Sources documentations", "index.html#autotoc_md10", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -58,7 +56,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"_a_d_u_l_8hpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

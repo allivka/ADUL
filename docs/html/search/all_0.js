@@ -1,11 +1,12 @@
 var searchData=
 [
-  ['activate_0',['activate',['../classadul_1_1Logger.html#a40547f6d08c111ab12d467933ef07884',1,'adul::Logger']]],
-  ['addstream_1',['addStream',['../classadul_1_1Logger.html#a972d5ba108e4259f289967798b5b92bc',1,'adul::Logger']]],
-  ['adul_2',['ADUL',['../md_README.html',1,'']]],
+  ['activate_0',['activate',['../classadul_1_1logs_1_1_logger.html#a681f3e041927cbf2e0d347f4cd547d14',1,'adul::logs::Logger']]],
+  ['addstream_1',['addStream',['../classadul_1_1logs_1_1_logger.html#a58cf68d1b2b98dc6b9c9b19909c6f5ac',1,'adul::logs::Logger']]],
+  ['adul_2',['ADUL',['../index.html',1,'']]],
   ['adul_3',['adul',['../namespaceadul.html',1,'']]],
-  ['adul_3a_3aexceptions_4',['exceptions',['../namespaceadul_1_1exceptions.html',1,'adul']]],
-  ['adul_3a_3atime_5',['time',['../namespaceadul_1_1time.html',1,'adul']]],
-  ['adul_3a_3atime_3a_3achrono_6',['chrono',['../namespaceadul_1_1time_1_1chrono.html',1,'adul::time']]],
-  ['and_20plans_7',['To-do and plans',['../md_README.html#autotoc_md6',1,'']]]
+  ['adul_2ehpp_4',['ADUL.hpp',['../_a_d_u_l_8hpp.html',1,'']]],
+  ['adul_3a_3aexceptions_5',['exceptions',['../namespaceadul_1_1exceptions.html',1,'adul']]],
+  ['adul_3a_3alogs_6',['logs',['../namespaceadul_1_1logs.html',1,'adul']]],
+  ['adul_3a_3atime_7',['time',['../namespaceadul_1_1time.html',1,'adul']]],
+  ['and_20plans_8',['To-do and plans',['../index.html#autotoc_md6',1,'']]]
 ];

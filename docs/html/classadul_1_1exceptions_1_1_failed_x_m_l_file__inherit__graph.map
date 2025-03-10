@@ -1,0 +1,9 @@
+<map id="adul::exceptions::FailedXMLFile" name="adul::exceptions::FailedXMLFile">
+<area shape="rect" id="Node000001" title="represents failure with working with XML file" alt="" coords="96,79,255,119"/>
+<area shape="rect" id="Node000003" href="$classadul_1_1exceptions_1_1_failed_reading_x_m_l_file.html" title="represents failure with reading from XML file" alt="" coords="5,167,164,207"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="147,130,107,168,103,165,144,126"/>
+<area shape="rect" id="Node000004" href="$classadul_1_1exceptions_1_1_failed_writing_x_m_l_file.html" title="represents failure with writing to XML file" alt="" coords="188,167,347,207"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="207,126,249,164,245,168,204,130"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="124,5,227,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,44,178,79,173,79,173,44"/>
+</map>

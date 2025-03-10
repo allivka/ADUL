@@ -8,7 +8,6 @@
 /**
  * @namespace adul::exceptions
  * @brief exceptions module
- * contains some useful exceptions
  * 
  */
 namespace adul::exceptions {
@@ -21,7 +20,7 @@ namespace adul::exceptions {
 
 /**
  * @class adul::exceptions::Message
- * @brief modified std::exception class
+ * @brief modified std::exception class \n
  * The only difference is that you define message by yourself when create an object
  * 
  */

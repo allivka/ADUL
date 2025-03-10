@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['clock_0',['Clock',['../classadul_1_1time_1_1Clock.html',1,'adul::time']]]
+  ['clock_0',['Clock',['../classadul_1_1time_1_1_clock.html',1,'adul::time']]]
 ];

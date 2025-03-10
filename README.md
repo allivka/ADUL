@@ -30,7 +30,9 @@ Notes:
 
 # Documentation
 
-To get documentation you need to open docs/html/index.html or index.html soft link via your browser
+The documentation was generated via doxygen tool and [Doxygen-Awesome theme](https://github.com/jothepro/doxygen-awesome-css.git)
+
+Documentation can be found in docs/html/index.html
 
 # To-do and plans
 

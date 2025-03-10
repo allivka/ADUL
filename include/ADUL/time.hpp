@@ -8,11 +8,7 @@
 
 #include "exceptions.hpp"
 
-/**
- * @namespace adul
- * @brief project api's namespace
- * 
- */
+
 namespace adul {
 
 /**
@@ -22,9 +18,12 @@ namespace adul {
  * 
  */
 namespace time {
+    
+    //\cond
     namespace chrono {
         using namespace std::chrono;
     }
+    //\endcond
 
     class Clock;
     
@@ -33,7 +32,7 @@ namespace time {
 
 /**
  * @class time::Clock;
- * @brief wrapper for part of std::chrono::steady_clock STL interface
+ * @brief wrapper for part of std::chrono::steady_clock STL interface \n
  * Must be started before usage
  */
 
@@ -56,7 +55,7 @@ public:
 /**
  * @class time::DurationsClock
  * @brief This class represent the sequence of durations and interface of working with them.
- * @details It uses std::chrono::steady_clock STL interface
+ * @details It uses std::chrono::steady_clock STL interface \n
  * Must be started before usage
  */
 

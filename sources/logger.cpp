@@ -1,6 +1,6 @@
 #include "../include/ADUL/logger.hpp"
 
-namespace adul {
+namespace adul::logs {
 
 
 Logger::Logger() { }
@@ -15,12 +15,12 @@ void Logger::clearStreams() {
 
 void Logger::start() {
     clock.start();
-    flagReady = 1;
+    flagReady = true;
 }
 
 void Logger::stop() {
     clock.stop();
-    flagReady = 0;
+    flagReady = false;
 }
 
 bool Logger::isReady() const {
@@ -31,7 +31,7 @@ void Logger::activate() {
     flagActive = true;
 }
 
-void Logger::deActivate() {
+void Logger::deactivate() {
     flagActive = false;
 }
 
@@ -39,17 +39,7 @@ bool Logger::isActive() const {
     return flagActive;
 }
 
-void Logger::push(const char *message) const {
-    if(!flagActive) return;
-    if(!flagReady) throw exceptions::Message("!Error! Logger is not ready!\n");
-    
-    for(uint64_t i = 0; i < streams.size(); i++) {
-        if(streams[i].get().good()) continue;
-        streams[i].get() << "[Time(s'ms): " << std::chrono::duration_cast<std::chrono::seconds>(clock.timeElapsed()).count() << "'" << 
-        std::chrono::duration_cast<std::chrono::milliseconds>(clock.timeElapsed()).count() << "]-> " 
-        << message << '\n';
-    }
-}
+// template<typename T> void Logger::push(T message) const;
 
 void Logger::push(const std::exception& msg) const {
     Logger::push(msg.what());

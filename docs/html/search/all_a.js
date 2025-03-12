@@ -7,5 +7,5 @@ var searchData=
   ['plans_4',['plans',['../index.html#autotoc_md7',1,'Possible plans'],['../index.html#autotoc_md6',1,'To-do and plans']]],
   ['points_5',['Main points',['../index.html#autotoc_md2',1,'']]],
   ['possible_20plans_6',['Possible plans',['../index.html#autotoc_md7',1,'']]],
-  ['push_7',['push',['../classadul_1_1logs_1_1_logger.html#a61749c560504ab5b8e977a5415d463ce',1,'adul::logs::Logger::push(const char *message) const'],['../classadul_1_1logs_1_1_logger.html#afe4c682bb846cafeba578f28bf3d3588',1,'adul::logs::Logger::push(const std::exception &amp;err) const']]]
+  ['push_7',['push',['../classadul_1_1logs_1_1_logger.html#afe0410e6d2c986e1dde13b4a4696bb7d',1,'adul::logs::Logger::push(T message) const'],['../classadul_1_1logs_1_1_logger.html#ad4d4fb8afe36d3cfd8faa8b68578295b',1,'adul::logs::Logger::push(const std::exception &amp;message) const']]]
 ];

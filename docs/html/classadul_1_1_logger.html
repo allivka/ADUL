@@ -140,11 +140,11 @@ $(function(){initNavTree('classadul_1_1_logger.html',''); initResizable(true); }
 <p><code>#include &lt;<a class="el" href="logger_8hpp_source.html">logger.hpp</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This is "Logger" class. </p>
-<p>It basically prints the messages to all the streams in "streams" vector if the object is "isReady" and "isActive" <br  />
+<p>It basically prints the messages to all the streams in "streams" vector if the object is "flagReady" and "flagActive" <br  />
 isReady represents the state if the logger is initialized <br  />
 isActive represents the state if logger should work right now. <br  />
  isActive = false prevents logger::push method from working and doesn't throw any exceptions <br  />
-Both isActive and isReady are false by default and must be modified via methods activate and start correspondingly <br  />
+Both "flagActive" and "flagReady" are false by default and must be modified via methods activate and start correspondingly <br  />
 </p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>include/ADUL/<a class="el" href="logger_8hpp_source.html">logger.hpp</a></li>

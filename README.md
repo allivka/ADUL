@@ -1,4 +1,4 @@
-# ADUL
+## ADUL
 What is ADUL? Now ADUL is just a compilation of some small utilities written by me or taken from other places. In theory they can be useful in any project
 
 # Latest stable version: ???
@@ -32,7 +32,9 @@ Notes:
 
 The documentation was generated via doxygen tool and [Doxygen-Awesome theme](https://github.com/jothepro/doxygen-awesome-css.git)
 
-Documentation can be found in docs/html/index.html
+Documentation can be found in docs/html/index.
+
+In documentation you can see also private and protected attributes and methods because I think that user should know more about how API he uses work under the hood and with such additional information it can be easier to understand the API functionulity 
 
 # To-do and plans
 

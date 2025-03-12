@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="classadul_1_1time_1_1_clock.html" target="_top" xlink:title="wrapper for part of std::chrono::steady_clock STL interface &#160;Must be started before usage">
+<g id="a_Node000000"><a xlink:href="classadul_1_1time_1_1_clock.html" target="_top" xlink:title="wrapper for part of std::chrono::steady_clock STL interface">
 <polygon fill="white" stroke="#666666" points="91,-19 0,-19 0,0 91,0 91,-19"/>
 <text text-anchor="middle" x="45.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">adul::time::Clock</text>
 </a>

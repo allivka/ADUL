@@ -33,7 +33,7 @@ namespace time {
 /**
  * @class time::Clock;
  * @brief wrapper for part of std::chrono::steady_clock STL interface \n
- * Must be started before usage
+ * @details Must be started before usage
  */
 
 class time::Clock {

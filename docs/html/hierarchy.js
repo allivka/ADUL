@@ -9,6 +9,5 @@ var hierarchy =
       ] ],
       [ "adul::exceptions::Message", "classadul_1_1exceptions_1_1_message.html", null ]
     ] ],
-    [ "Logger", "classadul_1_1_logger.html", null ],
     [ "adul::logs::Logger", "classadul_1_1logs_1_1_logger.html", null ]
 ];

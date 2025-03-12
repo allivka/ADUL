@@ -15,18 +15,17 @@ Main points:
 
 Utilities:
 1. tinyxml2 library source files for working with .xml format files
-2. logger utility that provides convenient interface for printing logs to any output stream
-3. time utility for time managing and measuring
-4. compilation of some maybe useful exceptions classes
+2. logs module that provides interface for printing logs to any output stream
+3. time module for time managing and measuring
+4. exceprions module which is compilation of some maybe useful exceptions classes
 
 
 # Notes
 
 Notes:
 1. tinyxml2 is not my library, but I find it very useful!
-    I put it here cause it is compact and i would like to keep it in easy access
+I put it here cause it is compact and i would like to keep it in easy access
 2. It's better to include only "include/ADUL.hpp" header to get access to the api
-3. Time utility is wrapper for STL steady_clock
 
 # Documentation
 
@@ -36,10 +35,11 @@ Documentation can be found in docs/html/index.
 
 In documentation you can see also private and protected attributes and methods because I think that user should know more about how API he uses work under the hood and with such additional information it can be easier to understand the API functionulity 
 
+I didn't want to add Doxygen-Awesome as dependency so just putted all necessary files into the doxytheme folder
+
 # To-do and plans
 
 To-do and plans:
-1. Creating documentation for the project via dox++ tool
 
 # Possible plans
 

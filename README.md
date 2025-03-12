@@ -17,7 +17,7 @@ Utilities:
 1. tinyxml2 library source files for working with .xml format files
 2. logs module that provides interface for printing logs to any output stream
 3. time module for time managing and measuring
-4. exceprions module which is compilation of some maybe useful exceptions classes
+4. exceptions module which is compilation of some maybe useful exceptions classes
 
 
 # Notes

@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['third_20party_20sources_0',['Third-Party Sources',['../index.html#autotoc_md9',1,'']]],
-  ['third_20party_20sources_20documentations_1',['Third-Party Sources documentations',['../index.html#autotoc_md10',1,'']]],
-  ['time_2ehpp_2',['time.hpp',['../time_8hpp.html',1,'']]],
-  ['timeelapsed_3',['timeElapsed',['../classadul_1_1time_1_1_clock.html#ad024167915373b97cf9cde3a92adc825',1,'adul::time::Clock']]],
-  ['to_20do_20and_20plans_4',['To-do and plans',['../index.html#autotoc_md6',1,'']]]
+  ['readme_2emd_0',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['resetchunk_1',['resetChunk',['../classadul_1_1_bit_vector.html#abb6927355ed12ae018a9a95ebc233af6',1,'adul::BitVector']]]
 ];

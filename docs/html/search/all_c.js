@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['savecurrentduration_0',['saveCurrentDuration',['../classadul_1_1time_1_1_durations_clock.html#aba084ab99917d52e1b7c0a3d3b13eede',1,'adul::time::DurationsClock']]],
-  ['sources_1',['Third-Party Sources',['../index.html#autotoc_md9',1,'']]],
-  ['sources_20documentations_2',['Third-Party Sources documentations',['../index.html#autotoc_md10',1,'']]],
-  ['stable_20version_3a_3',['Latest stable version: ???',['../index.html#autotoc_md1',1,'']]],
-  ['start_4',['start',['../classadul_1_1logs_1_1_logger.html#a766472819392ca232678c36cce3b7521',1,'adul::logs::Logger::start()'],['../classadul_1_1time_1_1_clock.html#acc0d6224e966674714329de88d6d8fed',1,'adul::time::Clock::start()']]],
-  ['startnewduration_5',['startNewDuration',['../classadul_1_1time_1_1_durations_clock.html#a7fdc30c2264f0a5db041feec126f8f29',1,'adul::time::DurationsClock']]],
-  ['startpoint_6',['startPoint',['../classadul_1_1time_1_1_clock.html#a3e35157b24f4689d0c859c2ca9cd4759',1,'adul::time::Clock::startPoint'],['../classadul_1_1time_1_1_durations_clock.html#a5acd99a55495acac325a4e66521ca927',1,'adul::time::DurationsClock::startPoint']]],
-  ['stop_7',['stop',['../classadul_1_1logs_1_1_logger.html#a18b852b43c0f8869d01cbbf2e6253d2b',1,'adul::logs::Logger::stop()'],['../classadul_1_1time_1_1_clock.html#ad0ae518c537071fe8a7b382f5056c440',1,'adul::time::Clock::stop()']]],
-  ['stopcurrentduration_8',['stopCurrentDuration',['../classadul_1_1time_1_1_durations_clock.html#a2348c8cfd646be8d8100845f81b7cbc6',1,'adul::time::DurationsClock']]],
-  ['streams_9',['streams',['../classadul_1_1logs_1_1_logger.html#ae90761bd95559f5416307ab1c677ed91',1,'adul::logs::Logger']]]
+  ['party_20sources_0',['Third-Party Sources',['../index.html#autotoc_md9',1,'']]],
+  ['party_20sources_20documentations_1',['Third-Party Sources documentations',['../index.html#autotoc_md10',1,'']]],
+  ['path_2',['path',['../classadul_1_1exceptions_1_1_failed_x_m_l_file.html#a8aada2d5ec3b04180006614b530cb370',1,'adul::exceptions::FailedXMLFile']]],
+  ['pausecurrentduration_3',['pauseCurrentDuration',['../classadul_1_1time_1_1_durations_clock.html#a1685228368bbf9459f23ce74be7d96fa',1,'adul::time::DurationsClock']]],
+  ['plans_4',['plans',['../index.html#autotoc_md7',1,'Possible plans'],['../index.html#autotoc_md6',1,'To-do and plans']]],
+  ['points_5',['Main points',['../index.html#autotoc_md2',1,'']]],
+  ['popchunk_6',['popChunk',['../classadul_1_1_bit_vector.html#a9ee016ac2880df7b2261f712df1fabe6',1,'adul::BitVector']]],
+  ['possible_20plans_7',['Possible plans',['../index.html#autotoc_md7',1,'']]],
+  ['push_8',['push',['../classadul_1_1logs_1_1_logger.html#afe0410e6d2c986e1dde13b4a4696bb7d',1,'adul::logs::Logger::push(T message) const'],['../classadul_1_1logs_1_1_logger.html#ad4d4fb8afe36d3cfd8faa8b68578295b',1,'adul::logs::Logger::push(const std::exception &amp;message) const']]],
+  ['pushchunk_9',['pushChunk',['../classadul_1_1_bit_vector.html#aeda95c8d5f0b91a4599014227df85272',1,'adul::BitVector::pushChunk()'],['../classadul_1_1_bit_vector.html#aaec27c0160ee24a5b7952be0e2331192',1,'adul::BitVector::pushChunk(const ChunkT &amp;pChunk)']]]
 ];

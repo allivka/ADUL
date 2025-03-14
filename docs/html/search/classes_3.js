@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['logger_0',['Logger',['../classadul_1_1logs_1_1_logger.html',1,'adul::logs']]]
+  ['failedreadingxmlfile_0',['FailedReadingXMLFile',['../classadul_1_1exceptions_1_1_failed_reading_x_m_l_file.html',1,'adul::exceptions']]],
+  ['failedwritingxmlfile_1',['FailedWritingXMLFile',['../classadul_1_1exceptions_1_1_failed_writing_x_m_l_file.html',1,'adul::exceptions']]],
+  ['failedxmlfile_2',['FailedXMLFile',['../classadul_1_1exceptions_1_1_failed_x_m_l_file.html',1,'adul::exceptions']]]
 ];

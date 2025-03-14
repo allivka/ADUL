@@ -1,7 +1,7 @@
 ## ADUL
 What is ADUL? Now ADUL is just a compilation of some small utilities written by me or taken from other places. In theory they can be useful in any project
 
-# Latest stable version: ???
+# Latest stable version: 0.1.0
 
 # Main points
 
@@ -18,6 +18,7 @@ Utilities:
 2. logs module that provides interface for printing logs to any output stream
 3. time module for time managing and measuring
 4. exceptions module which is compilation of some maybe useful exceptions classes
+5. BitVector class
 
 
 # Notes
@@ -25,7 +26,6 @@ Utilities:
 Notes:
 1. tinyxml2 is not my library, but I find it very useful!
 I put it here cause it is compact and i would like to keep it in easy access
-2. It's better to include only "include/ADUL.hpp" header to get access to the api
 
 # Documentation
 
@@ -81,3 +81,7 @@ which is licensed under the zlib License. See [LICENSE-TINYXML2](LICENSE-TINYXML
 
 # Third-Party Sources documentations
 See [tinyxml2 online documentation](https://leethomason.github.io/tinyxml2/)
+
+# Changelog:
+Changelog:
+Version 0.1.0: first release(at least I think so) with few little utilities inside

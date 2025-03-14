@@ -163,9 +163,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a681f3e041927cbf2e0d347f4cd547d14" id="r_a681f3e041927cbf2e0d347f4cd547d14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a681f3e041927cbf2e0d347f4cd547d14">activate</a> ()</td></tr>
 <tr class="memdesc:a681f3e041927cbf2e0d347f4cd547d14"><td class="mdescLeft">&#160;</td><td class="mdescRight">activates the timer  <br /></td></tr>
 <tr class="separator:a681f3e041927cbf2e0d347f4cd547d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1638551d7b85129d04f72b5b529824ab" id="r_a1638551d7b85129d04f72b5b529824ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1638551d7b85129d04f72b5b529824ab">deActivate</a> ()</td></tr>
-<tr class="memdesc:a1638551d7b85129d04f72b5b529824ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">deactivates the timer  <br /></td></tr>
-<tr class="separator:a1638551d7b85129d04f72b5b529824ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9d9d2c96a6899b5d54d77f4ea4f0928" id="r_ab9d9d2c96a6899b5d54d77f4ea4f0928"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9d9d2c96a6899b5d54d77f4ea4f0928">deactivate</a> ()</td></tr>
+<tr class="memdesc:ab9d9d2c96a6899b5d54d77f4ea4f0928"><td class="mdescLeft">&#160;</td><td class="mdescRight">deactivates the timer  <br /></td></tr>
+<tr class="separator:ab9d9d2c96a6899b5d54d77f4ea4f0928"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1daa4580a4f2da5d775a50d78449eb9" id="r_af1daa4580a4f2da5d775a50d78449eb9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1daa4580a4f2da5d775a50d78449eb9">isActive</a> () const</td></tr>
 <tr class="separator:af1daa4580a4f2da5d775a50d78449eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe0410e6d2c986e1dde13b4a4696bb7d" id="r_afe0410e6d2c986e1dde13b4a4696bb7d"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
@@ -230,7 +230,7 @@ Both "flagActive" and "flagReady" are false by default and must be modified via 
 </div><div class="memdoc">
 
 <p>activates the timer </p>
-<p>sets the "flagActivated" to false </p>
+<p>sets the "flagActive" to true </p>
 
 </div>
 </div>
@@ -268,14 +268,14 @@ Both "flagActive" and "flagReady" are false by default and must be modified via 
 
 </div>
 </div>
-<a id="a1638551d7b85129d04f72b5b529824ab" name="a1638551d7b85129d04f72b5b529824ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1638551d7b85129d04f72b5b529824ab">&#9670;&#160;</a></span>deActivate()</h2>
+<a id="ab9d9d2c96a6899b5d54d77f4ea4f0928" name="ab9d9d2c96a6899b5d54d77f4ea4f0928"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9d9d2c96a6899b5d54d77f4ea4f0928">&#9670;&#160;</a></span>deactivate()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void adul::logs::Logger::deActivate </td>
+          <td class="memname">void adul::logs::Logger::deactivate </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -284,7 +284,7 @@ Both "flagActive" and "flagReady" are false by default and must be modified via 
 </div><div class="memdoc">
 
 <p>deactivates the timer </p>
-<p>sets the "flagActivated" to false </p>
+<p>sets the "flagActive" to false </p>
 
 </div>
 </div>
@@ -338,7 +338,7 @@ Both "flagActive" and "flagReady" are false by default and must be modified via 
 </div><div class="memdoc">
 
 <p>pushes message of exception to all the logger streams </p>
-<p>acts similarly to <a class="el" href="#afe0410e6d2c986e1dde13b4a4696bb7d">push(const char*) method</a> but extracts message from exception class object</p>
+<p>acts similarly to <a class="el" href="#afe0410e6d2c986e1dde13b4a4696bb7d">push method</a> but extracts message from exception class object</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">message</td><td>is std::exception class or inherited from it, which must implement what() method, which is needed to extract message from the class </td></tr>
@@ -366,8 +366,8 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>pushes message to all the logger streams </p>
-<p>if object "isActivated" doesn't do anything <br  />
-if object is "isReady" runs properly, otherwise throws an adul::exceptions::message <br  />
+<p>if object "flagActive" doesn't do anything <br  />
+if object is "flagReady" runs properly, otherwise throws an adul::exceptions::message <br  />
  before every message it prints the time since last usage of <a class="el" href="#a766472819392ca232678c36cce3b7521" title="initializes the logger">start()</a> method in milliseconds</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -383,7 +383,7 @@ if object is "isReady" runs properly, otherwise throws an adul::exceptions::mess
 <dd>
 <a class="el" href="#a681f3e041927cbf2e0d347f4cd547d14" title="activates the timer">activate</a> "activate() method" </dd>
 <dd>
-deactivate "deactivate() method" </dd></dl>
+<a class="el" href="#ab9d9d2c96a6899b5d54d77f4ea4f0928" title="deactivates the timer">deactivate</a> "deactivate() method" </dd></dl>
 
 </div>
 </div>

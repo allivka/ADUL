@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['exceptions_2ehpp_0',['exceptions.hpp',['../exceptions_8hpp.html',1,'']]]
+  ['bitvector_2ehpp_0',['bitVector.hpp',['../bit_vector_8hpp.html',1,'']]]
 ];

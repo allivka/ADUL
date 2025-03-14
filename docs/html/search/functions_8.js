@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['pausecurrentduration_0',['pauseCurrentDuration',['../classadul_1_1time_1_1_durations_clock.html#a1685228368bbf9459f23ce74be7d96fa',1,'adul::time::DurationsClock']]],
-  ['push_1',['push',['../classadul_1_1logs_1_1_logger.html#afe0410e6d2c986e1dde13b4a4696bb7d',1,'adul::logs::Logger::push(T message) const'],['../classadul_1_1logs_1_1_logger.html#ad4d4fb8afe36d3cfd8faa8b68578295b',1,'adul::logs::Logger::push(const std::exception &amp;message) const']]]
+  ['message_0',['Message',['../classadul_1_1exceptions_1_1_message.html#aa3440f669cc229f5352ecf920640de3e',1,'adul::exceptions::Message::Message()'],['../classadul_1_1exceptions_1_1_message.html#aac4527894209cb417abb7d628f71f886',1,'adul::exceptions::Message::Message(const Message &amp;)=default'],['../classadul_1_1exceptions_1_1_message.html#a45a82fe10744b962695d3b6244082729',1,'adul::exceptions::Message::Message(const std::string &amp;)'],['../classadul_1_1exceptions_1_1_message.html#ab678c3f3b20e52051b79e215a6016d66',1,'adul::exceptions::Message::Message(const char *)']]]
 ];

@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['main_20points_0',['Main points',['../index.html#autotoc_md2',1,'']]],
-  ['message_1',['Message',['../classadul_1_1exceptions_1_1_message.html',1,'adul::exceptions::Message'],['../classadul_1_1exceptions_1_1_message.html#aa3440f669cc229f5352ecf920640de3e',1,'adul::exceptions::Message::Message()'],['../classadul_1_1exceptions_1_1_message.html#aac4527894209cb417abb7d628f71f886',1,'adul::exceptions::Message::Message(const Message &amp;)=default'],['../classadul_1_1exceptions_1_1_message.html#a45a82fe10744b962695d3b6244082729',1,'adul::exceptions::Message::Message(const std::string &amp;)'],['../classadul_1_1exceptions_1_1_message.html#ab678c3f3b20e52051b79e215a6016d66',1,'adul::exceptions::Message::Message(const char *)']]],
-  ['msg_2',['msg',['../classadul_1_1exceptions_1_1_message.html#aabc493e53a9d51428f51d2bc45e186a2',1,'adul::exceptions::Message']]]
+  ['latest_20stable_20version_3a_0',['Latest stable version: ???',['../index.html#autotoc_md1',1,'']]],
+  ['license_1',['License',['../index.html#autotoc_md8',1,'']]],
+  ['logger_2',['Logger',['../classadul_1_1logs_1_1_logger.html',1,'adul::logs::Logger'],['../classadul_1_1logs_1_1_logger.html#a980fc839d6b73786602ac1e85c789a0e',1,'adul::logs::Logger::Logger()']]],
+  ['logger_2ehpp_3',['logger.hpp',['../logger_8hpp.html',1,'']]]
 ];

@@ -13,6 +13,7 @@ var annotated_dup =
       [ "time", "namespaceadul_1_1time.html", [
         [ "Clock", "classadul_1_1time_1_1_clock.html", "classadul_1_1time_1_1_clock" ],
         [ "DurationsClock", "classadul_1_1time_1_1_durations_clock.html", "classadul_1_1time_1_1_durations_clock" ]
-      ] ]
+      ] ],
+      [ "BitVector", "classadul_1_1_bit_vector.html", "classadul_1_1_bit_vector" ]
     ] ]
 ];

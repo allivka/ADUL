@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "adul::BitVector< ChunkT >", "classadul_1_1_bit_vector.html", null ],
     [ "adul::time::Clock", "classadul_1_1time_1_1_clock.html", null ],
     [ "adul::time::DurationsClock", "classadul_1_1time_1_1_durations_clock.html", null ],
     [ "std::exception", null, [

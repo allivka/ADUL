@@ -87,17 +87,7 @@ public:
      * @see activate "activate() method"
      * @see deactivate "deactivate() method"
      */
-    template<typename T >void push(T message) const {
-        if(!flagActive) return;
-        if(!flagReady) throw exceptions::Message("!Error! Logger is not ready!\n");
-        
-        for(uint64_t i = 0; i < streams.size(); i++) {
-            if(!streams[i].get().good()) continue;
-            streams[i].get() << "[Time: " << std::chrono::duration_cast<std::chrono::seconds>(clock.timeElapsed()).count() << "s " << 
-            std::chrono::duration_cast<std::chrono::milliseconds>(clock.timeElapsed()).count() % 1000 << "ms]-> " 
-            << message << '\n';
-        }
-    }
+    template<typename T >void push(T message) const;
     
     /**
      * @brief pushes message of exception to all the logger streams

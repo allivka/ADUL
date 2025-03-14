@@ -1,7 +1,7 @@
 
-#ifndef ADUL_TIMEMANAGER_HPP
+#ifndef ADUL_TIME_HPP
 
-#define ADUL_TIMEMANAGER_HPP
+#define ADUL_TIME_HPP
 
 #include <chrono>
 #include <vector>

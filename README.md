@@ -57,8 +57,13 @@ cmake -S . -B build
 ```bash
 cd build
 ```
+-**first way**:
 ```bash
-cmake --build .  # Builds all targets (shared/static libs)
+cmake --build .  
+```
+-**second way**:
+```bash
+make 
 ```
 - **MinGW (Windows)**:  
   ```bash

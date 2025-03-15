@@ -66,9 +66,9 @@ cmake --build .
 make 
 ```
 - **MinGW (Windows)**:  
-  ```bash
-  mingw32-make
-  ```
+```bash
+mingw32-make
+```
 
 #### **Outputs**:
 Output will be in either build/lib or build/bin directories depending on your os

@@ -57,11 +57,11 @@ cmake -S . -B build
 ```bash
 cd build
 ```
--**first way**:
+- **first way**:
 ```bash
 cmake --build .  
 ```
--**second way**:
+- **second way**:
 ```bash
 make 
 ```

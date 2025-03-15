@@ -113,17 +113,8 @@ template<typename ChunkT> uint64_t BitVector<ChunkT>::bitsCapacity() const{
 template<typename ChunkT> void BitVector<ChunkT>::swap(BitVector<ChunkT>& that) {
     std::swap(dataChunks, that.dataChunks);
 }
-
-template<typename ChunkT> bool BitVector<ChunkT>::isEqualTo(const adul::BitVector<ChunkT>& that) const {
-    return dataChunks == that.dataChunks;
 }
 
-}
-
-template<typename ChunkT> bool operator==(const adul::BitVector<ChunkT>& _1, const adul::BitVector<ChunkT>& _2) {
-    return _1.isEqualTo(_2);
-}
-
-template<typename ChunkT> void std::swap(adul::BitVector<ChunkT>& _1, adul::BitVector<ChunkT>& _2) {
-    _1.swap(_2);
+template<typename ChunkT> void std::swap(adul::BitVector<ChunkT>& first, adul::BitVector<ChunkT>& second) {
+    first.swap(second);
 }

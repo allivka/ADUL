@@ -81,8 +81,6 @@ public:
 
 }
 
-template<typename ChunkT> bool operator==(const adul::BitVector<ChunkT>& _1, const adul::BitVector<ChunkT>& _2);
-
-template<typename ChunkT> void std::swap(adul::BitVector<ChunkT>& _1, adul::BitVector<ChunkT>& _2);
+template<typename ChunkT> void swap(adul::BitVector<ChunkT>& first, adul::BitVector<ChunkT>& second);
 
 #endif

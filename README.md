@@ -1,7 +1,7 @@
 ## ADUL
 What is ADUL? Now ADUL is just a compilation of some small utilities written by me or taken from other places. In theory they can be useful in any project
 
-# Latest stable version: 0.1.0
+# Latest stable version: 0.1.1
 
 # Main points
 
@@ -36,6 +36,102 @@ Documentation can be found in docs/html/index.
 In documentation you can see also private and protected attributes and methods because I think that user should know more about how API he uses work under the hood and with such additional information it can be easier to understand the API functionulity 
 
 I didn't want to add Doxygen-Awesome as dependency so just putted all necessary files into the doxytheme folder
+
+# Build
+To build the **ADUL** project using the provided `CMakeLists.txt`, follow these steps:
+
+---
+
+### **1. Basic Build (Linux/macOS/Windows)**
+#### **Step 1: Create a Build Directory**
+```bash
+mkdir build
+cd build
+```
+
+#### **Step 1: Generate Build Files**
+```bash
+cmake -S . -B build
+```
+#### **Step 3: Compile the Project**
+```bash
+cd build
+```
+```bash
+cmake --build .  # Builds all targets (shared/static libs)
+```
+- **MinGW (Windows)**:  
+  ```bash
+  mingw32-make
+  ```
+
+#### **Outputs**:
+Output will be in either build/lib or build/bin directories depending on your os
+
+---
+
+### **2. Custom Build Options**
+#### **Disable Shared/Static Libs**  
+Use CMake options to control library types:  
+```bash
+cmake -S . -B build -DADUL_BUILD_SHARED_LIBS=OFF    # Disable shared libs
+cmake -S . -B build -DADUL_BUILD_STATIC_LIBS=OFF    # Disable static libs
+```
+
+#### **Set Install Prefix**  
+Install to a custom directory (e.g., `$HOME/adul-install`):  
+```bash
+cmake -S . -B build -DCMAKE_INSTALL_PREFIX=$HOME/adul-install
+```
+
+---
+
+### **3. Install the Library**
+After building, install headers and libraries to the system or a custom path:  
+```bash
+cmake --build build --target install  # Requires install prefix or sudo
+```
+- **Default Install Paths**:
+  - Headers: `/usr/local/include` (Linux/macOS)
+  - Libraries: `/usr/local/lib`
+  - Binaries: `/usr/local/bin`
+
+---
+
+### **4. Use the Library in Another Project**
+To use ADUL in your project, add this to your `CMakeLists.txt`:
+```cmake
+find_package(ADUL REQUIRED)
+target_link_libraries(your_target ADUL::ADUL_shared)  # or ADUL::ADUL_static
+```
+Set `CMAKE_PREFIX_PATH` if ADUL is installed in a non-default location:  
+```bash
+cmake .. -DCMAKE_PREFIX_PATH=/path/to/adul-install
+```
+
+---
+
+### **5. Clean the Build**
+```bash
+cd build
+rm -rf *       # Delete all generated files (Linux/macOS)
+# OR
+cmake --build build --target clean  # Clean compiled binaries
+```
+
+---
+
+### **Troubleshooting**
+1. **Missing Headers**: Ensure headers are installed or include paths are set correctly.  
+2. **Shared Library Not Found (Linux)**: Add the library path to `LD_LIBRARY_PATH`:  
+   ```bash
+   export LD_LIBRARY_PATH=/path/to/ADUL/lib:$LD_LIBRARY_PATH
+   ```
+3. **Windows DLL Issues**: Place `ADUL.dll` in the same directory as your executable.
+
+---
+
+This workflow supports cross-platform builds and allows you to integrate the library seamlessly into other CMake projects.
 
 # To-do and plans
 

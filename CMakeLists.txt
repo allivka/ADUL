@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
 project(
     ADUL
-    VERSION 0.1.0
+    VERSION 0.1.1
     LANGUAGES CXX
     DESCRIPTION "Alivka's Different Utilities Library"
 )
@@ -39,7 +39,7 @@ endif()
 # Object Library 
 # ----------------------------
 
-file(GLOB ADUL_sources "sources/*.cpp")
+file(GLOB ADUL_sources "sources/*/*.cpp")
 add_library(ADUL_objects OBJECT ${ADUL_sources}
 )
 
@@ -92,7 +92,7 @@ include(GNUInstallDirs)  # Add this line
 # Install headers
 install(DIRECTORY include/ 
     DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
-    FILES_MATCHING PATTERN "*.hpp"
+    FILES_MATCHING PATTERN "ADUL.hpp"
 )
 
 # Install shared library

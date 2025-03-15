@@ -24,12 +24,12 @@ namespace adul::exceptions {
  * The only difference is that you define message by yourself when create an object
  * 
  */
-class adul::exceptions::Message : std::exception {
+class adul::exceptions::Message : public std::exception {
 protected:
-    const char* msg;
+    std::string msg = "!Error occurred! No info provided!\n";
+    
 public:
-    Message();
-    Message(const Message&) = default;
+    Message() = default;
     Message(const std::string&);
     Message(const char*);
     virtual const char* what() const noexcept override;
@@ -40,14 +40,12 @@ public:
  * @brief represents failure with working with XML file
  * 
  */
-class adul::exceptions::FailedXMLFile : std::exception {
+class adul::exceptions::FailedXMLFile : public std::exception {
 protected:
-    std::string path;
+    std::string msg = "Failed working with XML file";
 public:
     FailedXMLFile() = default;
-    FailedXMLFile(const char* p_path);
-    FailedXMLFile(const std::string& p_path);
-    FailedXMLFile(const FailedXMLFile&) = default;
+    FailedXMLFile(const std::string& p_msg);
     virtual const char* what() const noexcept override;
 };
 
@@ -57,10 +55,11 @@ public:
  * @brief represents failure with reading from XML file
  * 
  */
-class adul::exceptions::FailedReadingXMLFile : protected FailedXMLFile {
+class adul::exceptions::FailedReadingXMLFile : public FailedXMLFile {
 public:
-    using FailedXMLFile::FailedXMLFile;
-    virtual const char* what() const noexcept override;
+    FailedReadingXMLFile(const std::string& p_path);
+    FailedReadingXMLFile(const FailedReadingXMLFile&) = default;
+    FailedReadingXMLFile(FailedReadingXMLFile&&) = default;
 };
 
 
@@ -69,10 +68,11 @@ public:
  * @brief represents failure with writing to XML file
  * 
  */
-class adul::exceptions::FailedWritingXMLFile : FailedXMLFile {
+class adul::exceptions::FailedWritingXMLFile : public FailedXMLFile {
 public:
-    using FailedXMLFile::FailedXMLFile;
-    virtual const char* what() const noexcept override;
+    FailedWritingXMLFile(const std::string& p_path);
+    FailedWritingXMLFile(const FailedWritingXMLFile&) = default;
+    FailedWritingXMLFile(FailedWritingXMLFile&&) = default;
 };
 
 

@@ -1,4 +1,4 @@
-#include "../include/ADUL/bitVector.hpp"
+#include "../../include/ADUL/bitVector.hpp"
 
 namespace adul{
 
@@ -113,8 +113,9 @@ template<typename ChunkT> uint64_t BitVector<ChunkT>::bitsCapacity() const{
 template<typename ChunkT> void BitVector<ChunkT>::swap(BitVector<ChunkT>& that) {
     std::swap(dataChunks, that.dataChunks);
 }
-}
 
-template<typename ChunkT> void std::swap(adul::BitVector<ChunkT>& first, adul::BitVector<ChunkT>& second) {
+} //namespace adul
+
+template<typename ChunkT> void swap(adul::BitVector<ChunkT>& first, adul::BitVector<ChunkT>& second) {
     first.swap(second);
 }

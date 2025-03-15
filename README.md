@@ -37,6 +37,8 @@ In documentation you can see also private and protected attributes and methods b
 
 I didn't want to add Doxygen-Awesome as dependency so just putted all necessary files into the doxytheme folder
 
+[Documentation link](https://rawcdn.githack.com/allivka/ADUL/9fae2985b9849393e17cd6774c746341f0def777/docs/html/index.html)
+
 # Build
 To build the **ADUL** project using the provided `CMakeLists.txt`, follow these steps:
 

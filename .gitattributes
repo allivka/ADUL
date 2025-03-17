@@ -1,0 +1,4 @@
+docs/** linguist-vendored
+doxytheme/** linguist-vendored
+sources/extern linguist-vendored
+include/extern linguist-vendored

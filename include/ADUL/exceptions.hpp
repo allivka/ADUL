@@ -57,7 +57,7 @@ public:
  */
 class adul::exceptions::FailedReadingXMLFile : public FailedXMLFile {
 public:
-    FailedReadingXMLFile(const std::string& p_path);
+    FailedReadingXMLFile(const std::string& p_msg);
     FailedReadingXMLFile(const FailedReadingXMLFile&) = default;
     FailedReadingXMLFile(FailedReadingXMLFile&&) = default;
 };
@@ -70,7 +70,7 @@ public:
  */
 class adul::exceptions::FailedWritingXMLFile : public FailedXMLFile {
 public:
-    FailedWritingXMLFile(const std::string& p_path);
+    FailedWritingXMLFile(const std::string& p_msg);
     FailedWritingXMLFile(const FailedWritingXMLFile&) = default;
     FailedWritingXMLFile(FailedWritingXMLFile&&) = default;
 };

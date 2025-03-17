@@ -152,10 +152,8 @@ Inheritance diagram for adul::exceptions::Message:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa3440f669cc229f5352ecf920640de3e" id="r_aa3440f669cc229f5352ecf920640de3e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3440f669cc229f5352ecf920640de3e">Message</a> ()</td></tr>
-<tr class="separator:aa3440f669cc229f5352ecf920640de3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac4527894209cb417abb7d628f71f886" id="r_aac4527894209cb417abb7d628f71f886"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac4527894209cb417abb7d628f71f886">Message</a> (const <a class="el" href="classadul_1_1exceptions_1_1_message.html">Message</a> &amp;)=default</td></tr>
-<tr class="separator:aac4527894209cb417abb7d628f71f886"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3e4cc3dec26df935044511ba61663ea" id="r_ae3e4cc3dec26df935044511ba61663ea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3e4cc3dec26df935044511ba61663ea">Message</a> ()=default</td></tr>
+<tr class="separator:ae3e4cc3dec26df935044511ba61663ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45a82fe10744b962695d3b6244082729" id="r_a45a82fe10744b962695d3b6244082729"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45a82fe10744b962695d3b6244082729">Message</a> (const std::string &amp;)</td></tr>
 <tr class="separator:a45a82fe10744b962695d3b6244082729"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab678c3f3b20e52051b79e215a6016d66" id="r_ab678c3f3b20e52051b79e215a6016d66"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab678c3f3b20e52051b79e215a6016d66">Message</a> (const char *)</td></tr>
@@ -165,32 +163,15 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aabc493e53a9d51428f51d2bc45e186a2" id="r_aabc493e53a9d51428f51d2bc45e186a2"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabc493e53a9d51428f51d2bc45e186a2">msg</a></td></tr>
-<tr class="separator:aabc493e53a9d51428f51d2bc45e186a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb959c748a85fef0883b1ece67b43a50" id="r_abb959c748a85fef0883b1ece67b43a50"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb959c748a85fef0883b1ece67b43a50">msg</a> = &quot;!Error occurred! No info provided!\n&quot;</td></tr>
+<tr class="separator:abb959c748a85fef0883b1ece67b43a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>modified std::exception class <br  />
 The only difference is that you define message by yourself when create an object </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa3440f669cc229f5352ecf920640de3e" name="aa3440f669cc229f5352ecf920640de3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3440f669cc229f5352ecf920640de3e">&#9670;&#160;</a></span>Message() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">adul::exceptions::Message::Message </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aac4527894209cb417abb7d628f71f886" name="aac4527894209cb417abb7d628f71f886"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac4527894209cb417abb7d628f71f886">&#9670;&#160;</a></span>Message() <span class="overload">[2/4]</span></h2>
+<a id="ae3e4cc3dec26df935044511ba61663ea" name="ae3e4cc3dec26df935044511ba61663ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3e4cc3dec26df935044511ba61663ea">&#9670;&#160;</a></span>Message() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -201,7 +182,7 @@ The only difference is that you define message by yourself when create an object
         <tr>
           <td class="memname">adul::exceptions::Message::Message </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classadul_1_1exceptions_1_1_message.html">Message</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -215,7 +196,7 @@ The only difference is that you define message by yourself when create an object
 </div>
 </div>
 <a id="a45a82fe10744b962695d3b6244082729" name="a45a82fe10744b962695d3b6244082729"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45a82fe10744b962695d3b6244082729">&#9670;&#160;</a></span>Message() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a45a82fe10744b962695d3b6244082729">&#9670;&#160;</a></span>Message() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -232,7 +213,7 @@ The only difference is that you define message by yourself when create an object
 </div>
 </div>
 <a id="ab678c3f3b20e52051b79e215a6016d66" name="ab678c3f3b20e52051b79e215a6016d66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab678c3f3b20e52051b79e215a6016d66">&#9670;&#160;</a></span>Message() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab678c3f3b20e52051b79e215a6016d66">&#9670;&#160;</a></span>Message() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -275,8 +256,8 @@ The only difference is that you define message by yourself when create an object
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aabc493e53a9d51428f51d2bc45e186a2" name="aabc493e53a9d51428f51d2bc45e186a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabc493e53a9d51428f51d2bc45e186a2">&#9670;&#160;</a></span>msg</h2>
+<a id="abb959c748a85fef0883b1ece67b43a50" name="abb959c748a85fef0883b1ece67b43a50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb959c748a85fef0883b1ece67b43a50">&#9670;&#160;</a></span>msg</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -285,7 +266,7 @@ The only difference is that you define message by yourself when create an object
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const char* adul::exceptions::Message::msg</td>
+          <td class="memname">std::string adul::exceptions::Message::msg = &quot;!Error occurred! No info provided!\n&quot;</td>
         </tr>
       </table>
   </td>

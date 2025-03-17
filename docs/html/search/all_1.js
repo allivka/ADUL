@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['bitscapacity_0',['bitsCapacity',['../classadul_1_1_bit_vector.html#a9eb1a22eabce7fe7ba39f049af513ab9',1,'adul::BitVector']]],
-  ['bitsmaxsize_1',['bitsMaxSize',['../classadul_1_1_bit_vector.html#afb60a4c35e6a28ef55004bfbae0325eb',1,'adul::BitVector']]],
-  ['bitssize_2',['bitsSize',['../classadul_1_1_bit_vector.html#a0b9dae206b00db16e93eaba405f73495',1,'adul::BitVector']]],
-  ['bitvector_3',['BitVector',['../classadul_1_1_bit_vector.html',1,'adul']]],
-  ['bitvector_2ehpp_4',['bitVector.hpp',['../bit_vector_8hpp.html',1,'']]]
+  ['1_202_0',['Latest stable version: 0.1.2',['../index.html#autotoc_md1',1,'']]],
+  ['1_20basic_20build_20linux_20macos_20windows_20strong_1',['&lt;strong&gt;1. Basic Build (Linux/macOS/Windows)&lt;/strong&gt;',['../index.html#autotoc_md8',1,'']]],
+  ['1_3a_20create_20a_20build_20directory_20strong_2',['&lt;strong&gt;Step 1: Create a Build Directory&lt;/strong&gt;',['../index.html#autotoc_md9',1,'']]],
+  ['1_3a_20generate_20build_20files_20strong_3',['&lt;strong&gt;Step 1: Generate Build Files&lt;/strong&gt;',['../index.html#autotoc_md10',1,'']]]
 ];

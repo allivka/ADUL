@@ -25,16 +25,18 @@
 var NAVTREE =
 [
   [ "ADUL", "index.html", [
-    [ "Latest stable version: ???", "index.html#autotoc_md1", null ],
+    [ "Latest stable version: 0.1.2", "index.html#autotoc_md1", null ],
     [ "Main points", "index.html#autotoc_md2", null ],
     [ "Utilities", "index.html#autotoc_md3", null ],
     [ "Notes", "index.html#autotoc_md4", null ],
     [ "Documentation", "index.html#autotoc_md5", null ],
-    [ "To-do and plans", "index.html#autotoc_md6", null ],
-    [ "Possible plans", "index.html#autotoc_md7", null ],
-    [ "License", "index.html#autotoc_md8", null ],
-    [ "Third-Party Sources", "index.html#autotoc_md9", null ],
-    [ "Third-Party Sources documentations", "index.html#autotoc_md10", null ],
+    [ "Build", "index.html#autotoc_md6", null ],
+    [ "To-do and plans", "index.html#autotoc_md26", null ],
+    [ "Possible plans", "index.html#autotoc_md27", null ],
+    [ "License", "index.html#autotoc_md28", null ],
+    [ "Third-Party Sources", "index.html#autotoc_md29", null ],
+    [ "Third-Party Sources documentations", "index.html#autotoc_md30", null ],
+    [ "Changelog:", "index.html#autotoc_md31", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],

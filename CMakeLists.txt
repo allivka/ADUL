@@ -32,7 +32,7 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 if(MSVC)
     add_compile_definitions(_CRT_SECURE_NO_WARNINGS)
 else()
-    add_compile_options(-Wall -Wextra -Wpedantic -fPIC)
+    add_compile_options(-Wall -Wextra -Wpedantic -fPIC -O3)
 endif()
 
 # ----------------------------

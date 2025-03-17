@@ -137,7 +137,7 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 <div class="textblock"><p><a class="anchor" id="md__r_e_a_d_m_e"></a></p>
 <p>What is ADUL? Now ADUL is just a compilation of some small utilities written by me or taken from other places. In theory they can be useful in any project</p>
 <h1><a class="anchor" id="autotoc_md1"></a>
-Latest stable version: ???</h1>
+Latest stable version: 0.1.2</h1>
 <h1><a class="anchor" id="autotoc_md2"></a>
 Main points</h1>
 <p>Main points:</p><ol type="1">
@@ -153,12 +153,12 @@ Utilities</h1>
 <li>logs module that provides interface for printing logs to any output stream</li>
 <li>time module for time managing and measuring</li>
 <li>exceptions module which is compilation of some maybe useful exceptions classes</li>
+<li>BitVector class</li>
 </ol>
 <h1><a class="anchor" id="autotoc_md4"></a>
 Notes</h1>
 <p>Notes:</p><ol type="1">
 <li>tinyxml2 is not my library, but I find it very useful! I put it here cause it is compact and i would like to keep it in easy access</li>
-<li>It's better to include only "include/ADUL.hpp" header to get access to the api</li>
 </ol>
 <h1><a class="anchor" id="autotoc_md5"></a>
 Documentation</h1>
@@ -166,16 +166,97 @@ Documentation</h1>
 <p>Documentation can be found in docs/html/index.</p>
 <p>In documentation you can see also private and protected attributes and methods because I think that user should know more about how API he uses work under the hood and with such additional information it can be easier to understand the API functionulity</p>
 <p>I didn't want to add Doxygen-Awesome as dependency so just putted all necessary files into the doxytheme folder</p>
+<p><a href="https://rawcdn.githack.com/allivka/ADUL/9fae2985b9849393e17cd6774c746341f0def777/docs/html/index.html">Documentation link</a></p>
 <h1><a class="anchor" id="autotoc_md6"></a>
+Build</h1>
+<p>To build the <b>ADUL</b> project using the provided <code>CMakeLists.txt</code>, follow these steps:</p>
+<hr  />
+<h3><a class="anchor" id="autotoc_md8"></a>
+<b>1. Basic Build (Linux/macOS/Windows)</b></h3>
+<h4><a class="anchor" id="autotoc_md9"></a>
+<b>Step 1: Create a Build Directory</b></h4>
+<div class="fragment"><div class="line">mkdir build</div>
+<div class="line">cd build</div>
+</div><!-- fragment --><h4><a class="anchor" id="autotoc_md10"></a>
+<b>Step 1: Generate Build Files</b></h4>
+<div class="fragment"><div class="line">cmake -S . -B build</div>
+</div><!-- fragment --> <h4><a class="anchor" id="autotoc_md11"></a>
+<b>Step 3: Compile the Project</b></h4>
+<div class="fragment"><div class="line">cd build</div>
+</div><!-- fragment --><ul>
+<li><b>first way</b>: <div class="fragment"><div class="line">cmake --build .  </div>
+</div><!-- fragment --></li>
+<li><b>second way</b>: <div class="fragment"><div class="line">make </div>
+</div><!-- fragment --></li>
+<li><b>MinGW (Windows)</b>: <br  />
+ <div class="fragment"><div class="line">mingw32-make</div>
+</div><!-- fragment --></li>
+</ul>
+<h4><a class="anchor" id="autotoc_md12"></a>
+<b>Outputs</b>:</h4>
+<p>Output will be in either build/lib or build/bin directories depending on your os</p>
+<hr  />
+<h3><a class="anchor" id="autotoc_md14"></a>
+<b>2. Custom Build Options</b></h3>
+<h4><a class="anchor" id="autotoc_md15"></a>
+<b>Disable Shared/Static Libs</b></h4>
+<p>Use CMake options to control library types: <br  />
+ </p><div class="fragment"><div class="line">cmake -S . -B build -DADUL_BUILD_SHARED_LIBS=OFF    # Disable shared libs</div>
+<div class="line">cmake -S . -B build -DADUL_BUILD_STATIC_LIBS=OFF    # Disable static libs</div>
+</div><!-- fragment --><h4><a class="anchor" id="autotoc_md16"></a>
+<b>Set Install Prefix</b></h4>
+<p>Install to a custom directory (e.g., <code>$HOME/adul-install</code>): <br  />
+ </p><div class="fragment"><div class="line">cmake -S . -B build -DCMAKE_INSTALL_PREFIX=$HOME/adul-install</div>
+</div><!-- fragment --><hr  />
+<h3><a class="anchor" id="autotoc_md18"></a>
+<b>3. Install the Library</b></h3>
+<p>After building, install headers and libraries to the system or a custom path: <br  />
+ </p><div class="fragment"><div class="line">cmake --build build --target install  # Requires install prefix or sudo</div>
+</div><!-- fragment --><ul>
+<li><b>Default Install Paths</b>:<ul>
+<li>Headers: <code>/usr/local/include</code> (Linux/macOS)</li>
+<li>Libraries: <code>/usr/local/lib</code></li>
+<li>Binaries: <code>/usr/local/bin</code></li>
+</ul>
+</li>
+</ul>
+<hr  />
+<h3><a class="anchor" id="autotoc_md20"></a>
+<b>4. Use the Library in Another Project</b></h3>
+<p>To use ADUL in your project, add this to your <code>CMakeLists.txt</code>: </p><div class="fragment"><div class="line">find_package(ADUL REQUIRED)</div>
+<div class="line">target_link_libraries(your_target ADUL::ADUL_shared)  # or ADUL::ADUL_static</div>
+</div><!-- fragment --><p> Set <code>CMAKE_PREFIX_PATH</code> if ADUL is installed in a non-default location: <br  />
+ </p><div class="fragment"><div class="line">cmake .. -DCMAKE_PREFIX_PATH=/path/to/adul-install</div>
+</div><!-- fragment --><hr  />
+<h3><a class="anchor" id="autotoc_md22"></a>
+<b>5. Clean the Build</b></h3>
+<div class="fragment"><div class="line">cd build</div>
+<div class="line">rm -rf *       # Delete all generated files (Linux/macOS)</div>
+<div class="line"># OR</div>
+<div class="line">cmake --build build --target clean  # Clean compiled binaries</div>
+</div><!-- fragment --><hr  />
+<h3><a class="anchor" id="autotoc_md24"></a>
+<b>Troubleshooting</b></h3>
+<ol type="1">
+<li><b>Missing Headers</b>: Ensure headers are installed or include paths are set correctly. <br  />
+</li>
+<li><b>Shared Library Not Found (Linux)</b>: Add the library path to <code>LD_LIBRARY_PATH</code>: <br  />
+ <div class="fragment"><div class="line">export LD_LIBRARY_PATH=/path/to/ADUL/lib:$LD_LIBRARY_PATH</div>
+</div><!-- fragment --></li>
+<li><b>Windows DLL Issues</b>: Place <code>ADUL.dll</code> in the same directory as your executable.</li>
+</ol>
+<hr  />
+<p>This workflow supports cross-platform builds and allows you to integrate the library seamlessly into other CMake projects.</p>
+<h1><a class="anchor" id="autotoc_md26"></a>
 To-do and plans</h1>
 <p>To-do and plans:</p>
-<h1><a class="anchor" id="autotoc_md7"></a>
+<h1><a class="anchor" id="autotoc_md27"></a>
 Possible plans</h1>
 <p>Possible plans:</p><ol type="1">
 <li>Adding implementations of some algorithms and data structures (only possible plan because some of them are already implemented in STL)</li>
 <li>Creating tests for the project (small chance that i will do it because i am just the definition of word laziness)</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md8"></a>
+<h1><a class="anchor" id="autotoc_md28"></a>
 License</h1>
 <p>This project is licensed under the MIT License.</p>
 <p>MIT License</p>
@@ -183,12 +264,15 @@ License</h1>
 <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
 <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
 <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
-<h1><a class="anchor" id="autotoc_md9"></a>
+<h1><a class="anchor" id="autotoc_md29"></a>
 Third-Party Sources</h1>
 <p>This project includes <a href="https://github.com/leethomason/tinyxml2">tinyxml2</a>, which is licensed under the zlib License. See [LICENSE-TINYXML2](LICENSE-TINYXML2) for details.</p>
-<h1><a class="anchor" id="autotoc_md10"></a>
+<h1><a class="anchor" id="autotoc_md30"></a>
 Third-Party Sources documentations</h1>
-<p>See <a href="https://leethomason.github.io/tinyxml2/">tinyxml2 online documentation</a> </p>
+<p>See <a href="https://leethomason.github.io/tinyxml2/">tinyxml2 online documentation</a></p>
+<h1><a class="anchor" id="autotoc_md31"></a>
+Changelog:</h1>
+<p>Changelog: Version 0.1.0: first release(at least I think so) with few little utilities inside </p>
 </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->

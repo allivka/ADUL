@@ -8,7 +8,7 @@ var searchData=
   ['shared_20static_20libs_20strong_5',['&lt;strong&gt;Disable Shared/Static Libs&lt;/strong&gt;',['../index.html#autotoc_md15',1,'']]],
   ['sources_6',['Third-Party Sources',['../index.html#autotoc_md29',1,'']]],
   ['sources_20documentations_7',['Third-Party Sources documentations',['../index.html#autotoc_md30',1,'']]],
-  ['stable_20version_3a_200_201_202_8',['Latest stable version: 0.1.2',['../index.html#autotoc_md1',1,'']]],
+  ['stable_20version_3a_200_201_203_8',['Latest stable version: 0.1.3',['../index.html#autotoc_md1',1,'']]],
   ['start_9',['start',['../classadul_1_1logs_1_1_logger.html#a766472819392ca232678c36cce3b7521',1,'adul::logs::Logger::start()'],['../classadul_1_1time_1_1_clock.html#acc0d6224e966674714329de88d6d8fed',1,'adul::time::Clock::start()']]],
   ['startnewduration_10',['startNewDuration',['../classadul_1_1time_1_1_durations_clock.html#a7fdc30c2264f0a5db041feec126f8f29',1,'adul::time::DurationsClock']]],
   ['startpoint_11',['startPoint',['../classadul_1_1time_1_1_clock.html#a3e35157b24f4689d0c859c2ca9cd4759',1,'adul::time::Clock::startPoint'],['../classadul_1_1time_1_1_durations_clock.html#a5acd99a55495acac325a4e66521ca927',1,'adul::time::DurationsClock::startPoint']]],

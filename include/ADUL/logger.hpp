@@ -75,8 +75,8 @@ public:
     
     /**
      * @brief pushes message to all the logger streams
-     * @details if object "flagActive" doesn't do anything \n
-     * if object is "flagReady" runs properly, otherwise throws an adul::exceptions::message \n 
+     * @details if "flagActive" is false doesn't do anything \n
+     * if  "flagReady" is true runs properly, otherwise throws an adul::exceptions::message \n 
      * before every message it prints the time since last usage of start() method in milliseconds
      * 
      * @param message is message to be pushed in all the streams
@@ -87,15 +87,20 @@ public:
      * @see activate "activate() method"
      * @see deactivate "deactivate() method"
      */
-    template<typename T >void push(T message) const;
-    
-    /**
-     * @brief pushes message of exception to all the logger streams
-     * @details acts similarly to @ref push "push method" but extracts message from exception class object
-     * 
-     * @param message is std::exception class or inherited from it, which must implement what() method, which is needed to extract message from the class
-     */
-    void push(const std::exception& message) const;
+    template<typename T> void push(const T& message) const {
+        if(!flagActive) return;
+        if(!flagReady) throw exceptions::Message("!Error! Logger is not ready!\n");
+        
+        for(uint64_t i = 0; i < streams.size(); i++) {
+            if(!streams[i].get().good()) continue;
+            std::chrono::_V2::steady_clock::duration elapsed = clock.timeElapsed();
+            streams[i].get() << "[Time: "<< std::chrono::duration_cast<std::chrono::hours>(elapsed).count() << "h " << 
+            std::chrono::duration_cast<std::chrono::minutes>(elapsed).count() % 60 << "m " << 
+            std::chrono::duration_cast<std::chrono::seconds>(elapsed).count() % 60 << "s " << 
+            std::chrono::duration_cast<std::chrono::milliseconds>(elapsed).count() % 1000 << "ms]-> " 
+            << message << '\n';
+        }
+    }
 };
 
 }

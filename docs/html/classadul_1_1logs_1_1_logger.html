@@ -168,13 +168,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab9d9d2c96a6899b5d54d77f4ea4f0928"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1daa4580a4f2da5d775a50d78449eb9" id="r_af1daa4580a4f2da5d775a50d78449eb9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1daa4580a4f2da5d775a50d78449eb9">isActive</a> () const</td></tr>
 <tr class="separator:af1daa4580a4f2da5d775a50d78449eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe0410e6d2c986e1dde13b4a4696bb7d" id="r_afe0410e6d2c986e1dde13b4a4696bb7d"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:afe0410e6d2c986e1dde13b4a4696bb7d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#afe0410e6d2c986e1dde13b4a4696bb7d">push</a> (T message) const</td></tr>
-<tr class="memdesc:afe0410e6d2c986e1dde13b4a4696bb7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">pushes message to all the logger streams  <br /></td></tr>
-<tr class="separator:afe0410e6d2c986e1dde13b4a4696bb7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4d4fb8afe36d3cfd8faa8b68578295b" id="r_ad4d4fb8afe36d3cfd8faa8b68578295b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4d4fb8afe36d3cfd8faa8b68578295b">push</a> (const std::exception &amp;message) const</td></tr>
-<tr class="memdesc:ad4d4fb8afe36d3cfd8faa8b68578295b"><td class="mdescLeft">&#160;</td><td class="mdescRight">pushes message of exception to all the logger streams  <br /></td></tr>
-<tr class="separator:ad4d4fb8afe36d3cfd8faa8b68578295b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a836291f986eb60d1b07628f7002307c8" id="r_a836291f986eb60d1b07628f7002307c8"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a836291f986eb60d1b07628f7002307c8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a836291f986eb60d1b07628f7002307c8">push</a> (const T &amp;message) const</td></tr>
+<tr class="memdesc:a836291f986eb60d1b07628f7002307c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">pushes message to all the logger streams  <br /></td></tr>
+<tr class="separator:a836291f986eb60d1b07628f7002307c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -322,52 +319,34 @@ Both "flagActive" and "flagReady" are false by default and must be modified via 
 
 </div>
 </div>
-<a id="ad4d4fb8afe36d3cfd8faa8b68578295b" name="ad4d4fb8afe36d3cfd8faa8b68578295b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4d4fb8afe36d3cfd8faa8b68578295b">&#9670;&#160;</a></span>push() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void adul::logs::Logger::push </td>
-          <td>(</td>
-          <td class="paramtype">const std::exception &amp;</td>          <td class="paramname"><span class="paramname"><em>message</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>pushes message of exception to all the logger streams </p>
-<p>acts similarly to <a class="el" href="#afe0410e6d2c986e1dde13b4a4696bb7d">push method</a> but extracts message from exception class object</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">message</td><td>is std::exception class or inherited from it, which must implement what() method, which is needed to extract message from the class </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="afe0410e6d2c986e1dde13b4a4696bb7d" name="afe0410e6d2c986e1dde13b4a4696bb7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe0410e6d2c986e1dde13b4a4696bb7d">&#9670;&#160;</a></span>push() <span class="overload">[2/2]</span></h2>
+<a id="a836291f986eb60d1b07628f7002307c8" name="a836291f986eb60d1b07628f7002307c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a836291f986eb60d1b07628f7002307c8">&#9670;&#160;</a></span>push()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void adul::logs::Logger::push </td>
           <td>(</td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>message</em></span></td><td>)</td>
+          <td class="paramtype">const T &amp;</td>          <td class="paramname"><span class="paramname"><em>message</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>pushes message to all the logger streams </p>
-<p>if object "flagActive" doesn't do anything <br  />
-if object is "flagReady" runs properly, otherwise throws an adul::exceptions::message <br  />
+<p>if "flagActive" is false doesn't do anything <br  />
+if "flagReady" is true runs properly, otherwise throws an adul::exceptions::message <br  />
  before every message it prints the time since last usage of <a class="el" href="#a766472819392ca232678c36cce3b7521" title="initializes the logger">start()</a> method in milliseconds</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">

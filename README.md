@@ -1,7 +1,7 @@
 ## ADUL
 What is ADUL? Now ADUL is just a compilation of some small utilities written by me or taken from other places. In theory they can be useful in any project
 
-# Latest stable version: 0.1.2
+# Latest stable version: 0.1.3
 
 # Main points
 

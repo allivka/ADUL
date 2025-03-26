@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
 project(
     ADUL
-    VERSION 0.1.2
+    VERSION 0.1.3
     LANGUAGES CXX
     DESCRIPTION "Alivka's Different Utilities Library"
 )
@@ -32,7 +32,7 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 if(MSVC)
     add_compile_definitions(_CRT_SECURE_NO_WARNINGS)
 else()
-    add_compile_options(-Wall -Wextra -Wpedantic -fPIC -O3)
+    add_compile_options(-Wall -Wextra -Wpedantic -fPIC)
 endif()
 
 # ----------------------------

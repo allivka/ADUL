@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['latest_20stable_20version_3a_200_201_202_0',['Latest stable version: 0.1.2',['../index.html#autotoc_md1',1,'']]],
+  ['latest_20stable_20version_3a_200_201_203_0',['Latest stable version: 0.1.3',['../index.html#autotoc_md1',1,'']]],
   ['library_20in_20another_20project_20strong_1',['&lt;strong&gt;4. Use the Library in Another Project&lt;/strong&gt;',['../index.html#autotoc_md20',1,'']]],
   ['library_20strong_2',['&lt;strong&gt;3. Install the Library&lt;/strong&gt;',['../index.html#autotoc_md18',1,'']]],
   ['libs_20strong_3',['&lt;strong&gt;Disable Shared/Static Libs&lt;/strong&gt;',['../index.html#autotoc_md15',1,'']]],

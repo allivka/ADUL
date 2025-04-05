@@ -1,7 +1,7 @@
 ## ADUL
 What is ADUL? Now ADUL is just a compilation of some small utilities written by me or taken from other places. In theory they can be useful in any project
 
-# Latest stable version: 0.1.3
+# Latest stable version: 0.1.4
 
 # Main points
 
@@ -19,6 +19,7 @@ Utilities:
 3. time module for time managing and measuring
 4. exceptions module which is compilation of some maybe useful exceptions classes
 5. BitVector class
+6. utils module which includes very small utilities
 
 
 # Notes
@@ -26,6 +27,7 @@ Utilities:
 Notes:
 1. tinyxml2 is not my library, but I find it very useful!
 I put it here cause it is compact and i would like to keep it in easy access
+2. not really sure that auto installation really works as it is supposed
 
 # Documentation
 
@@ -45,30 +47,25 @@ To build the **ADUL** project using the provided `CMakeLists.txt`, follow these 
 ---
 
 ### **1. Basic Build (Linux/macOS/Windows)**
-#### **Step 1: Create a Build Directory**
-```bash
-mkdir build
-cd build
-```
 
 #### **Step 1: Generate Build Files**
 ```bash
 cmake -S . -B build
 ```
-#### **Step 3: Compile the Project**
-```bash
-cd build
-```
+#### **Step 2: Compile the Project**
+
 - **first way**:
 ```bash
-cmake --build .  
+cmake --build build 
 ```
 - **second way**:
 ```bash
+cd build
 make 
 ```
 - **MinGW (Windows)**:  
 ```bash
+cd build
 mingw32-make
 ```
 

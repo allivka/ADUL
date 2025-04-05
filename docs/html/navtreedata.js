@@ -25,20 +25,24 @@
 var NAVTREE =
 [
   [ "ADUL", "index.html", [
-    [ "Latest stable version: 0.1.3", "index.html#autotoc_md1", null ],
+    [ "Latest stable version: 0.1.4", "index.html#autotoc_md1", null ],
     [ "Main points", "index.html#autotoc_md2", null ],
     [ "Utilities", "index.html#autotoc_md3", null ],
     [ "Notes", "index.html#autotoc_md4", null ],
     [ "Documentation", "index.html#autotoc_md5", null ],
     [ "Build", "index.html#autotoc_md6", null ],
-    [ "To-do and plans", "index.html#autotoc_md26", null ],
-    [ "Possible plans", "index.html#autotoc_md27", null ],
-    [ "License", "index.html#autotoc_md28", null ],
-    [ "Third-Party Sources", "index.html#autotoc_md29", null ],
-    [ "Third-Party Sources documentations", "index.html#autotoc_md30", null ],
-    [ "Changelog:", "index.html#autotoc_md31", null ],
+    [ "To-do and plans", "index.html#autotoc_md25", null ],
+    [ "Possible plans", "index.html#autotoc_md26", null ],
+    [ "License", "index.html#autotoc_md27", null ],
+    [ "Third-Party Sources", "index.html#autotoc_md28", null ],
+    [ "Third-Party Sources documentations", "index.html#autotoc_md29", null ],
+    [ "Changelog:", "index.html#autotoc_md30", null ],
     [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ]
+      ] ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -65,5 +69,5 @@ var NAVTREEINDEX =
 "_a_d_u_l_8hpp.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronization';
-var SYNCOFFMSG = 'click to enable panel synchronization';
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';

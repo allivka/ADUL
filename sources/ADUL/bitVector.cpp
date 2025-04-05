@@ -110,12 +110,12 @@ template<typename ChunkT> uint64_t BitVector<ChunkT>::bitsCapacity() const{
     return dataChunks.capacity() * sizeof(ChunkT);
 }
 
-template<typename ChunkT> void BitVector<ChunkT>::swap(BitVector<ChunkT>& that) {
+template<typename ChunkT> void BitVector<ChunkT>::swap(BitVector<ChunkT>& that) noexcept {
     std::swap(dataChunks, that.dataChunks);
 }
 
 } //namespace adul
 
-template<typename ChunkT> void swap(adul::BitVector<ChunkT>& first, adul::BitVector<ChunkT>& second) {
+template<typename ChunkT> void swap(adul::BitVector<ChunkT>& first, adul::BitVector<ChunkT>& second) noexcept {
     first.swap(second);
 }

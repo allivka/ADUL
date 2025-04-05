@@ -27,5 +27,5 @@ var classadul_1_1_bit_vector =
     [ "setBitValue", "classadul_1_1_bit_vector.html#a58694b772e0e9e6b839ed55c8280ee50", null ],
     [ "setChunk", "classadul_1_1_bit_vector.html#aa1f3ce4877d33c039224d6d8c4c3dcec", null ],
     [ "setChunksVector", "classadul_1_1_bit_vector.html#a0b661a42263f473452ad52390992ed7a", null ],
-    [ "swap", "classadul_1_1_bit_vector.html#acf7bb3677cec37fe05b6273019c9c10d", null ]
+    [ "swap", "classadul_1_1_bit_vector.html#a027e337f7336a1fb64013f1c2b4901b9", null ]
 ];

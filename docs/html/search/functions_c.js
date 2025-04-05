@@ -8,5 +8,5 @@ var searchData=
   ['startnewduration_5',['startNewDuration',['../classadul_1_1time_1_1_durations_clock.html#a7fdc30c2264f0a5db041feec126f8f29',1,'adul::time::DurationsClock']]],
   ['stop_6',['stop',['../classadul_1_1logs_1_1_logger.html#a18b852b43c0f8869d01cbbf2e6253d2b',1,'adul::logs::Logger::stop()'],['../classadul_1_1time_1_1_clock.html#ad0ae518c537071fe8a7b382f5056c440',1,'adul::time::Clock::stop()']]],
   ['stopcurrentduration_7',['stopCurrentDuration',['../classadul_1_1time_1_1_durations_clock.html#a2348c8cfd646be8d8100845f81b7cbc6',1,'adul::time::DurationsClock']]],
-  ['swap_8',['swap',['../classadul_1_1_bit_vector.html#acf7bb3677cec37fe05b6273019c9c10d',1,'adul::BitVector::swap()'],['../bit_vector_8hpp.html#a741784af8157a7cd735eeacd83874c56',1,'swap():&#160;bitVector.hpp']]]
+  ['swap_8',['swap',['../classadul_1_1_bit_vector.html#a027e337f7336a1fb64013f1c2b4901b9',1,'adul::BitVector::swap()'],['../bit_vector_8hpp.html#a64c67f0bfd4e78c6c7827b3744602c48',1,'swap():&#160;bitVector.hpp']]]
 ];

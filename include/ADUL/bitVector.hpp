@@ -73,7 +73,7 @@ public:
     
     uint64_t bitsCapacity() const;
     
-    void swap(BitVector<ChunkT>& that);
+    void swap(BitVector<ChunkT>& that) noexcept;
     
     bool isEqualTo(const adul::BitVector<ChunkT>& that) const;
     
@@ -81,6 +81,6 @@ public:
 
 }
 
-template<typename ChunkT> void swap(adul::BitVector<ChunkT>& first, adul::BitVector<ChunkT>& second);
+template<typename ChunkT> void swap(adul::BitVector<ChunkT>& first, adul::BitVector<ChunkT>& second) noexcept;
 
 #endif

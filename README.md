@@ -1,7 +1,7 @@
 ## ADUL
 What is ADUL? Now ADUL is just a compilation of some small utilities written by me or taken from other places. In theory they can be useful in any project
 
-# Latest stable version: 0.1.4
+# Latest stable version: 0.1.5
 
 # Main points
 
@@ -18,8 +18,8 @@ Utilities:
 2. logs module that provides interface for printing logs to any output stream
 3. time module for time managing and measuring
 4. exceptions module which is compilation of some maybe useful exceptions classes
-5. BitVector class
-6. utils module which includes very small utilities
+5. atm module with some data structures and STL wrappers
+6. utils module which includes very small utilities which aren't really related to each other
 
 
 # Notes
@@ -35,7 +35,7 @@ The documentation was generated via doxygen tool and [Doxygen-Awesome theme](htt
 
 Documentation can be found in docs/html/index.
 
-In documentation you can see also private and protected attributes and methods because I think that user should know more about how API he uses work under the hood and with such additional information it can be easier to understand the API functionulity 
+In documentation you can see also private and protected attributes and methods because I think that user should know more about how API he uses work under the hood and with such additional information it can be easier to understand the API functionality 
 
 I didn't want to add Doxygen-Awesome as dependency so just putted all necessary files into the doxytheme folder
 
@@ -154,7 +154,7 @@ This project is licensed under the MIT License.
 
 MIT License
 
-Copyright (c) 2025 Alivka
+Copyright (c) 2025 Allivka
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

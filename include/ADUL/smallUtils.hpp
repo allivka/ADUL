@@ -30,7 +30,7 @@ namespace adul {
       return result;
     }
 
-    template<> std::string convert_string<std::string>(const std::string& str) {
+    template<> inline std::string convert_string<std::string>(const std::string& str) {
       return str;
     }
   }

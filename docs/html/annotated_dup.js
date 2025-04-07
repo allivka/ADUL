@@ -1,6 +1,10 @@
 var annotated_dup =
 [
     [ "adul", "namespaceadul.html", [
+      [ "atm", "namespaceadul_1_1atm.html", [
+        [ "BitVector", "classadul_1_1atm_1_1_bit_vector.html", "classadul_1_1atm_1_1_bit_vector" ],
+        [ "XMLMap", "classadul_1_1atm_1_1_x_m_l_map.html", "classadul_1_1atm_1_1_x_m_l_map" ]
+      ] ],
       [ "exceptions", "namespaceadul_1_1exceptions.html", [
         [ "FailedReadingXMLFile", "classadul_1_1exceptions_1_1_failed_reading_x_m_l_file.html", "classadul_1_1exceptions_1_1_failed_reading_x_m_l_file" ],
         [ "FailedWritingXMLFile", "classadul_1_1exceptions_1_1_failed_writing_x_m_l_file.html", "classadul_1_1exceptions_1_1_failed_writing_x_m_l_file" ],
@@ -13,7 +17,6 @@ var annotated_dup =
       [ "time", "namespaceadul_1_1time.html", [
         [ "Clock", "classadul_1_1time_1_1_clock.html", "classadul_1_1time_1_1_clock" ],
         [ "DurationsClock", "classadul_1_1time_1_1_durations_clock.html", "classadul_1_1time_1_1_durations_clock" ]
-      ] ],
-      [ "BitVector", "classadul_1_1_bit_vector.html", "classadul_1_1_bit_vector" ]
+      ] ]
     ] ]
 ];

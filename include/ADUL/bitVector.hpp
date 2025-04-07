@@ -4,7 +4,8 @@
 #include <cstdint>
 #include <vector>
 
-namespace adul {
+namespace adul { namespace atm {
+
 
 /**
  * @brief Vector of chunks, where in which chunk you can edit every bit
@@ -75,12 +76,12 @@ public:
     
     void swap(BitVector<ChunkT>& that) noexcept;
     
-    bool isEqualTo(const adul::BitVector<ChunkT>& that) const;
+    bool isEqualTo(const adul::atm::BitVector<ChunkT>& that) const;
     
 };
 
-}
+}}
 
-template<typename ChunkT> void swap(adul::BitVector<ChunkT>& first, adul::BitVector<ChunkT>& second) noexcept;
+template<typename ChunkT> void swap(adul::atm::BitVector<ChunkT>& first, adul::atm::BitVector<ChunkT>& second) noexcept;
 
 #endif

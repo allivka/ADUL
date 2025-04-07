@@ -11,8 +11,8 @@ namespace adul{};
 #include "ADUL/exceptions.hpp"
 #include "ADUL/logger.hpp"
 #include "ADUL/time.hpp"
-#include "ADUL/bitVector.hpp"
 #include "ADUL/smallUtils.hpp"
+#include "ADUL/atm.hpp"
 
 #include "extern/tinyxml2.hpp"
 

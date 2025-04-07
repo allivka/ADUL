@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['bitvector_0',['BitVector',['../classadul_1_1_bit_vector.html',1,'adul']]]
+  ['bitvector_0',['BitVector',['../classadul_1_1atm_1_1_bit_vector.html',1,'adul::atm']]]
 ];

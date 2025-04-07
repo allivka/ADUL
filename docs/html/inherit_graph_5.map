@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,76,109,103"/>
+<area shape="rect" id="Node000001" href="$classadul_1_1exceptions_1_1_failed_x_m_l_file.html" title="represents failure with working with XML file" alt="" coords="166,39,325,81"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="124,76,165,70,165,75,125,82"/>
+<area shape="rect" id="Node000004" href="$classadul_1_1exceptions_1_1_message.html" title="modified std::exception class &#160;The only difference is that you define message by yourself when create..." alt="" coords="157,105,334,132"/>
+<area shape="poly" id="edge4_Node000000_Node000004" title=" " alt="" coords="124,97,157,102,156,107,124,102"/>
+<area shape="rect" id="Node000002" href="$classadul_1_1exceptions_1_1_failed_reading_x_m_l_file.html" title="represents failure with reading from XML file" alt="" coords="382,5,541,48"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="340,43,381,36,382,42,341,48"/>
+<area shape="rect" id="Node000003" href="$classadul_1_1exceptions_1_1_failed_writing_x_m_l_file.html" title="represents failure with writing to XML file" alt="" coords="382,72,541,115"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="341,72,382,78,381,84,340,77"/>
+</map>

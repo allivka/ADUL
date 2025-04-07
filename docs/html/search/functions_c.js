@@ -1,12 +1,14 @@
 var searchData=
 [
   ['savecurrentduration_0',['saveCurrentDuration',['../classadul_1_1time_1_1_durations_clock.html#aba084ab99917d52e1b7c0a3d3b13eede',1,'adul::time::DurationsClock']]],
-  ['setbitvalue_1',['setBitValue',['../classadul_1_1_bit_vector.html#a58694b772e0e9e6b839ed55c8280ee50',1,'adul::BitVector']]],
-  ['setchunk_2',['setChunk',['../classadul_1_1_bit_vector.html#aa1f3ce4877d33c039224d6d8c4c3dcec',1,'adul::BitVector']]],
-  ['setchunksvector_3',['setChunksVector',['../classadul_1_1_bit_vector.html#a0b661a42263f473452ad52390992ed7a',1,'adul::BitVector']]],
-  ['start_4',['start',['../classadul_1_1logs_1_1_logger.html#a766472819392ca232678c36cce3b7521',1,'adul::logs::Logger::start()'],['../classadul_1_1time_1_1_clock.html#acc0d6224e966674714329de88d6d8fed',1,'adul::time::Clock::start()']]],
-  ['startnewduration_5',['startNewDuration',['../classadul_1_1time_1_1_durations_clock.html#a7fdc30c2264f0a5db041feec126f8f29',1,'adul::time::DurationsClock']]],
-  ['stop_6',['stop',['../classadul_1_1logs_1_1_logger.html#a18b852b43c0f8869d01cbbf2e6253d2b',1,'adul::logs::Logger::stop()'],['../classadul_1_1time_1_1_clock.html#ad0ae518c537071fe8a7b382f5056c440',1,'adul::time::Clock::stop()']]],
-  ['stopcurrentduration_7',['stopCurrentDuration',['../classadul_1_1time_1_1_durations_clock.html#a2348c8cfd646be8d8100845f81b7cbc6',1,'adul::time::DurationsClock']]],
-  ['swap_8',['swap',['../classadul_1_1_bit_vector.html#a027e337f7336a1fb64013f1c2b4901b9',1,'adul::BitVector::swap()'],['../bit_vector_8hpp.html#a64c67f0bfd4e78c6c7827b3744602c48',1,'swap():&#160;bitVector.hpp']]]
+  ['savepropstoxmlelement_1',['savePropsToXMLElement',['../classadul_1_1atm_1_1_x_m_l_map.html#a14857c00fb4245952a60e499136f59e3',1,'adul::atm::XMLMap']]],
+  ['savepropstoxmlfile_2',['savePropsToXMLFile',['../classadul_1_1atm_1_1_x_m_l_map.html#a2e1505cee5a0414d745c799e3700c61c',1,'adul::atm::XMLMap']]],
+  ['setbitvalue_3',['setBitValue',['../classadul_1_1atm_1_1_bit_vector.html#ab3a69c44738af4f3c0614d3c239ecaa3',1,'adul::atm::BitVector']]],
+  ['setchunk_4',['setChunk',['../classadul_1_1atm_1_1_bit_vector.html#a57359690f1ba0e12275e8d054641c1a5',1,'adul::atm::BitVector']]],
+  ['setchunksvector_5',['setChunksVector',['../classadul_1_1atm_1_1_bit_vector.html#aa4608d64933002816d0ce61c15589006',1,'adul::atm::BitVector']]],
+  ['start_6',['start',['../classadul_1_1logs_1_1_logger.html#a766472819392ca232678c36cce3b7521',1,'adul::logs::Logger::start()'],['../classadul_1_1time_1_1_clock.html#acc0d6224e966674714329de88d6d8fed',1,'adul::time::Clock::start()']]],
+  ['startnewduration_7',['startNewDuration',['../classadul_1_1time_1_1_durations_clock.html#a7fdc30c2264f0a5db041feec126f8f29',1,'adul::time::DurationsClock']]],
+  ['stop_8',['stop',['../classadul_1_1logs_1_1_logger.html#a18b852b43c0f8869d01cbbf2e6253d2b',1,'adul::logs::Logger::stop()'],['../classadul_1_1time_1_1_clock.html#ad0ae518c537071fe8a7b382f5056c440',1,'adul::time::Clock::stop()']]],
+  ['stopcurrentduration_9',['stopCurrentDuration',['../classadul_1_1time_1_1_durations_clock.html#a2348c8cfd646be8d8100845f81b7cbc6',1,'adul::time::DurationsClock']]],
+  ['swap_10',['swap',['../classadul_1_1atm_1_1_bit_vector.html#ad63f316e48e465ee24847c28bbbb3e5a',1,'adul::atm::BitVector::swap()'],['../bit_vector_8hpp.html#a861ffde51dfc512821895d4be2c52782',1,'swap():&#160;bitVector.hpp']]]
 ];

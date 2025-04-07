@@ -1,6 +1,6 @@
 #include "../../include/ADUL/bitVector.hpp"
 
-namespace adul{
+namespace adul { namespace atm {
 
 template<typename ChunkT> void BitVector<ChunkT>::pushChunk() {
     dataChunks.emplace_back();
@@ -114,8 +114,8 @@ template<typename ChunkT> void BitVector<ChunkT>::swap(BitVector<ChunkT>& that) 
     std::swap(dataChunks, that.dataChunks);
 }
 
-} //namespace adul
+}} //namespace adul
 
-template<typename ChunkT> void swap(adul::BitVector<ChunkT>& first, adul::BitVector<ChunkT>& second) noexcept {
+template<typename ChunkT> void swap(adul::atm::BitVector<ChunkT>& first, adul::atm::BitVector<ChunkT>& second) noexcept {
     first.swap(second);
 }

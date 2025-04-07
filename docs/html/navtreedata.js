@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "ADUL", "index.html", [
-    [ "Latest stable version: 0.1.4", "index.html#autotoc_md1", null ],
+    [ "Latest stable version: 0.1.5", "index.html#autotoc_md1", null ],
     [ "Main points", "index.html#autotoc_md2", null ],
     [ "Utilities", "index.html#autotoc_md3", null ],
     [ "Notes", "index.html#autotoc_md4", null ],

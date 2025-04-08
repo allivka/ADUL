@@ -1,4 +1,4 @@
-#include "../../include/ADUL/logger.hpp"
+#include "../../include/ADUL/logs.hpp"
 
 namespace adul::logs {
 

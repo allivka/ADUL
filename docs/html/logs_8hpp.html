@@ -16,7 +16,7 @@
 <meta name="twitter:title" content="Doxygen Awesome" />
 <meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." /> -->
 <!-- END twitter metadata -->
-<title>ADUL: Member List</title>
+<title>ADUL: include/ADUL/logs.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -105,7 +105,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('classadul_1_1atm_1_1_x_m_l_map.html',''); initResizable(true); });
+$(function(){initNavTree('logs_8hpp.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -131,22 +131,47 @@ $(function(){initNavTree('classadul_1_1atm_1_1_x_m_l_map.html',''); initResizabl
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">adul::atm::XMLMap&lt; keyT, valueT &gt; Member List</div></div>
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a>  </div>
+  <div class="headertitle"><div class="title">logs.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>This is the complete list of members for <a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html">adul::atm::XMLMap&lt; keyT, valueT &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html#af4e7db90a0797246beeda1023683a429">loadMapFromXMLElement</a>(const adul::xml::XMLElement *const pElement)</td><td class="entry"><a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html">adul::atm::XMLMap&lt; keyT, valueT &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html#a7203c98351269ea27cf8a2cc7ce5287e">loadMapFromXMLFile</a>(const char *dir)</td><td class="entry"><a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html">adul::atm::XMLMap&lt; keyT, valueT &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html#a7f80093eb25ad36517a50394bb44a153">map</a></td><td class="entry"><a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html">adul::atm::XMLMap&lt; keyT, valueT &gt;</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html#ab2ff80fa0155fdd943f8211286cdc84b">saveMapToXMLElement</a>(adul::xml::XMLElement *const pElement, adul::xml::XMLDocument *const xmlDoc) const</td><td class="entry"><a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html">adul::atm::XMLMap&lt; keyT, valueT &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html#a3300b4433df7bb45562f07978929586b">saveMapToXMLFile</a>(const char *dir)</td><td class="entry"><a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html">adul::atm::XMLMap&lt; keyT, valueT &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-</table></div><!-- contents -->
+<div class="textblock"><code>#include &lt;string&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
+<code>#include &quot;<a class="el" href="time_8hpp_source.html">time.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="exceptions_8hpp_source.html">exceptions.hpp</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for logs.hpp:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="logs_8hpp__incl.svg" width="430" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<p><a href="logs_8hpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classadul_1_1logs_1_1_logger.html">adul::logs::Logger</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is "Logger" class.  <a href="classadul_1_1logs_1_1_logger.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceadul.html">adul</a></td></tr>
+<tr class="memdesc:namespaceadul"><td class="mdescLeft">&#160;</td><td class="mdescRight">project api's namespace <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceadul_1_1logs.html">adul::logs</a></td></tr>
+<tr class="memdesc:namespaceadul_1_1logs"><td class="mdescLeft">&#160;</td><td class="mdescRight">logging system module <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_ae0f62aa9d3ef097e917d9a3aa58c71a.html">ADUL</a></li><li class="navelem"><a class="el" href="logs_8hpp.html">logs.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>

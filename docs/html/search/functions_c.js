@@ -1,8 +1,8 @@
 var searchData=
 [
   ['savecurrentduration_0',['saveCurrentDuration',['../classadul_1_1time_1_1_durations_clock.html#aba084ab99917d52e1b7c0a3d3b13eede',1,'adul::time::DurationsClock']]],
-  ['savepropstoxmlelement_1',['savePropsToXMLElement',['../classadul_1_1atm_1_1_x_m_l_map.html#a14857c00fb4245952a60e499136f59e3',1,'adul::atm::XMLMap']]],
-  ['savepropstoxmlfile_2',['savePropsToXMLFile',['../classadul_1_1atm_1_1_x_m_l_map.html#a2e1505cee5a0414d745c799e3700c61c',1,'adul::atm::XMLMap']]],
+  ['savemaptoxmlelement_1',['saveMapToXMLElement',['../classadul_1_1atm_1_1_x_m_l_map.html#ab2ff80fa0155fdd943f8211286cdc84b',1,'adul::atm::XMLMap']]],
+  ['savemaptoxmlfile_2',['saveMapToXMLFile',['../classadul_1_1atm_1_1_x_m_l_map.html#a3300b4433df7bb45562f07978929586b',1,'adul::atm::XMLMap']]],
   ['setbitvalue_3',['setBitValue',['../classadul_1_1atm_1_1_bit_vector.html#ab3a69c44738af4f3c0614d3c239ecaa3',1,'adul::atm::BitVector']]],
   ['setchunk_4',['setChunk',['../classadul_1_1atm_1_1_bit_vector.html#a57359690f1ba0e12275e8d054641c1a5',1,'adul::atm::BitVector']]],
   ['setchunksvector_5',['setChunksVector',['../classadul_1_1atm_1_1_bit_vector.html#aa4608d64933002816d0ce61c15589006',1,'adul::atm::BitVector']]],

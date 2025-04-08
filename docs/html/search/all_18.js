@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['version_3a_200_201_205_0',['Latest stable version: 0.1.5',['../index.html#autotoc_md1',1,'']]]
+  ['use_20the_20library_20in_20another_20project_20strong_0',['&lt;strong&gt;4. Use the Library in Another Project&lt;/strong&gt;',['../index.html#autotoc_md19',1,'']]],
+  ['utilities_1',['Utilities',['../index.html#autotoc_md3',1,'']]]
 ];

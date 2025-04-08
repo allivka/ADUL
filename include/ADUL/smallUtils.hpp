@@ -1,5 +1,5 @@
-#ifndef SMALLUTILS_HPP
-#define SMALLUTILS_HPP
+#ifndef ADUL_SMALLUTILS_HPP
+#define ADUL_SMALLUTILS_HPP
 
 #include <string>
 #include <sstream>

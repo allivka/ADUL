@@ -1,5 +1,5 @@
-#ifndef ATM_HPP
-#define ATM_HPP
+#ifndef ADUL_ATM_HPP
+#define ADUL_ATM_HPP
 
 namespace adul {
 

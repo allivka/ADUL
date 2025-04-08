@@ -146,14 +146,14 @@ $(function(){initNavTree('classadul_1_1atm_1_1_x_m_l_map.html',''); initResizabl
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a14857c00fb4245952a60e499136f59e3" id="r_a14857c00fb4245952a60e499136f59e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14857c00fb4245952a60e499136f59e3">savePropsToXMLElement</a> (adul::xml::XMLElement *const pElement, adul::xml::XMLDocument *const xmlDoc) const</td></tr>
-<tr class="separator:a14857c00fb4245952a60e499136f59e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e4b26879fca9c22110de58b3cee4db2" id="r_a5e4b26879fca9c22110de58b3cee4db2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e4b26879fca9c22110de58b3cee4db2">loadPropsFromXMLElement</a> (const adul::xml::XMLElement *const pElement)</td></tr>
-<tr class="separator:a5e4b26879fca9c22110de58b3cee4db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e1505cee5a0414d745c799e3700c61c" id="r_a2e1505cee5a0414d745c799e3700c61c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e1505cee5a0414d745c799e3700c61c">savePropsToXMLFile</a> (const char *dir)</td></tr>
-<tr class="separator:a2e1505cee5a0414d745c799e3700c61c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0080d267ed8744b538b9bbe12b75ca2c" id="r_a0080d267ed8744b538b9bbe12b75ca2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0080d267ed8744b538b9bbe12b75ca2c">loadPropsFromXMLFile</a> (const char *dir)</td></tr>
-<tr class="separator:a0080d267ed8744b538b9bbe12b75ca2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2ff80fa0155fdd943f8211286cdc84b" id="r_ab2ff80fa0155fdd943f8211286cdc84b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2ff80fa0155fdd943f8211286cdc84b">saveMapToXMLElement</a> (adul::xml::XMLElement *const pElement, adul::xml::XMLDocument *const xmlDoc) const</td></tr>
+<tr class="separator:ab2ff80fa0155fdd943f8211286cdc84b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4e7db90a0797246beeda1023683a429" id="r_af4e7db90a0797246beeda1023683a429"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4e7db90a0797246beeda1023683a429">loadMapFromXMLElement</a> (const adul::xml::XMLElement *const pElement)</td></tr>
+<tr class="separator:af4e7db90a0797246beeda1023683a429"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3300b4433df7bb45562f07978929586b" id="r_a3300b4433df7bb45562f07978929586b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3300b4433df7bb45562f07978929586b">saveMapToXMLFile</a> (const char *dir)</td></tr>
+<tr class="separator:a3300b4433df7bb45562f07978929586b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7203c98351269ea27cf8a2cc7ce5287e" id="r_a7203c98351269ea27cf8a2cc7ce5287e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7203c98351269ea27cf8a2cc7ce5287e">loadMapFromXMLFile</a> (const char *dir)</td></tr>
+<tr class="separator:a7203c98351269ea27cf8a2cc7ce5287e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -167,8 +167,8 @@ class adul::atm::XMLMap&lt; keyT, valueT &gt;</div><p>this class is wrapper for 
  these functions use tinyxml2 library api and are supposed to be used along with it <br  />
  all the map elements are placed in the XML element each with name "mapElement" and key and value of map element are stored as attributes of this XML element if these functions fail they throw exceptions of <a class="el" href="namespaceadul_1_1exceptions.html" title="exceptions module">adul::exceptions</a> module </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5e4b26879fca9c22110de58b3cee4db2" name="a5e4b26879fca9c22110de58b3cee4db2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e4b26879fca9c22110de58b3cee4db2">&#9670;&#160;</a></span>loadPropsFromXMLElement()</h2>
+<a id="af4e7db90a0797246beeda1023683a429" name="af4e7db90a0797246beeda1023683a429"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4e7db90a0797246beeda1023683a429">&#9670;&#160;</a></span>loadMapFromXMLElement()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -179,7 +179,7 @@ template&lt;typename keyT , typename valueT &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html">adul::atm::XMLMap</a>&lt; keyT, valueT &gt;::loadPropsFromXMLElement </td>
+          <td class="memname">void <a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html">adul::atm::XMLMap</a>&lt; keyT, valueT &gt;::loadMapFromXMLElement </td>
           <td>(</td>
           <td class="paramtype">const adul::xml::XMLElement *const</td>          <td class="paramname"><span class="paramname"><em>pElement</em></span></td><td>)</td>
           <td></td>
@@ -194,8 +194,8 @@ template&lt;typename keyT , typename valueT &gt; </div>
 
 </div>
 </div>
-<a id="a0080d267ed8744b538b9bbe12b75ca2c" name="a0080d267ed8744b538b9bbe12b75ca2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0080d267ed8744b538b9bbe12b75ca2c">&#9670;&#160;</a></span>loadPropsFromXMLFile()</h2>
+<a id="a7203c98351269ea27cf8a2cc7ce5287e" name="a7203c98351269ea27cf8a2cc7ce5287e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7203c98351269ea27cf8a2cc7ce5287e">&#9670;&#160;</a></span>loadMapFromXMLFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206,7 +206,7 @@ template&lt;typename keyT , typename valueT &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html">adul::atm::XMLMap</a>&lt; keyT, valueT &gt;::loadPropsFromXMLFile </td>
+          <td class="memname">void <a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html">adul::atm::XMLMap</a>&lt; keyT, valueT &gt;::loadMapFromXMLFile </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span></td><td>)</td>
           <td></td>
@@ -221,8 +221,8 @@ template&lt;typename keyT , typename valueT &gt; </div>
 
 </div>
 </div>
-<a id="a14857c00fb4245952a60e499136f59e3" name="a14857c00fb4245952a60e499136f59e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14857c00fb4245952a60e499136f59e3">&#9670;&#160;</a></span>savePropsToXMLElement()</h2>
+<a id="ab2ff80fa0155fdd943f8211286cdc84b" name="ab2ff80fa0155fdd943f8211286cdc84b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2ff80fa0155fdd943f8211286cdc84b">&#9670;&#160;</a></span>saveMapToXMLElement()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -233,7 +233,7 @@ template&lt;typename keyT , typename valueT &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html">adul::atm::XMLMap</a>&lt; keyT, valueT &gt;::savePropsToXMLElement </td>
+          <td class="memname">void <a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html">adul::atm::XMLMap</a>&lt; keyT, valueT &gt;::saveMapToXMLElement </td>
           <td>(</td>
           <td class="paramtype">adul::xml::XMLElement *const</td>          <td class="paramname"><span class="paramname"><em>pElement</em></span>, </td>
         </tr>
@@ -252,8 +252,8 @@ template&lt;typename keyT , typename valueT &gt; </div>
 
 </div>
 </div>
-<a id="a2e1505cee5a0414d745c799e3700c61c" name="a2e1505cee5a0414d745c799e3700c61c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e1505cee5a0414d745c799e3700c61c">&#9670;&#160;</a></span>savePropsToXMLFile()</h2>
+<a id="a3300b4433df7bb45562f07978929586b" name="a3300b4433df7bb45562f07978929586b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3300b4433df7bb45562f07978929586b">&#9670;&#160;</a></span>saveMapToXMLFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -264,7 +264,7 @@ template&lt;typename keyT , typename valueT &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html">adul::atm::XMLMap</a>&lt; keyT, valueT &gt;::savePropsToXMLFile </td>
+          <td class="memname">void <a class="el" href="classadul_1_1atm_1_1_x_m_l_map.html">adul::atm::XMLMap</a>&lt; keyT, valueT &gt;::saveMapToXMLFile </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span></td><td>)</td>
           <td></td>

@@ -91,10 +91,11 @@ public:
         if(!flagActive) return;
         if(!flagReady) throw exceptions::Message("!Error! Logger is not ready!\n");
         
-        for(uint64_t i = 0; i < streams.size(); i++) {
+        for(size_t i = 0; i < streams.size(); i++) {
             if(!streams[i].get().good()) continue;
-            std::chrono::_V2::steady_clock::duration elapsed = clock.timeElapsed();
-            streams[i].get() << "[Time: "<< std::chrono::duration_cast<std::chrono::hours>(elapsed).count() << "h " << 
+            adul::time::chrono::steady_clock::duration elapsed = clock.timeElapsed();
+            streams[i].get() << "[Time: "<< 
+            std::chrono::duration_cast<std::chrono::hours>(elapsed).count() << "h " << 
             std::chrono::duration_cast<std::chrono::minutes>(elapsed).count() % 60 << "m " << 
             std::chrono::duration_cast<std::chrono::seconds>(elapsed).count() % 60 << "s " << 
             std::chrono::duration_cast<std::chrono::milliseconds>(elapsed).count() % 1000 << "ms]-> " 

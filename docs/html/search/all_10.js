@@ -1,8 +1,13 @@
 var searchData=
 [
-  ['macos_20windows_20strong_0',['&lt;strong&gt;1. Basic Build (Linux/macOS/Windows)&lt;/strong&gt;',['../index.html#autotoc_md8',1,'']]],
-  ['main_20points_1',['Main points',['../index.html#autotoc_md2',1,'']]],
-  ['map_2',['map',['../classadul_1_1atm_1_1_x_m_l_map.html#a7f80093eb25ad36517a50394bb44a153',1,'adul::atm::XMLMap']]],
-  ['message_3',['Message',['../classadul_1_1exceptions_1_1_message.html',1,'adul::exceptions::Message'],['../classadul_1_1exceptions_1_1_message.html#ae3e4cc3dec26df935044511ba61663ea',1,'adul::exceptions::Message::Message()=default'],['../classadul_1_1exceptions_1_1_message.html#a45a82fe10744b962695d3b6244082729',1,'adul::exceptions::Message::Message(const std::string &amp;)'],['../classadul_1_1exceptions_1_1_message.html#ab678c3f3b20e52051b79e215a6016d66',1,'adul::exceptions::Message::Message(const char *)']]],
-  ['msg_4',['msg',['../classadul_1_1exceptions_1_1_message.html#abb959c748a85fef0883b1ece67b43a50',1,'adul::exceptions::Message::msg'],['../classadul_1_1exceptions_1_1_failed_x_m_l_file.html#a145a2f5cafb9b6a8446e66eabf9d1096',1,'adul::exceptions::FailedXMLFile::msg']]]
+  ['latest_20stable_20version_3a_200_201_206_0',['Latest stable version: 0.1.6',['../index.html#autotoc_md1',1,'']]],
+  ['library_20in_20another_20project_20strong_1',['&lt;strong&gt;4. Use the Library in Another Project&lt;/strong&gt;',['../index.html#autotoc_md19',1,'']]],
+  ['library_20strong_2',['&lt;strong&gt;3. Install the Library&lt;/strong&gt;',['../index.html#autotoc_md17',1,'']]],
+  ['libs_20strong_3',['&lt;strong&gt;Disable Shared/Static Libs&lt;/strong&gt;',['../index.html#autotoc_md14',1,'']]],
+  ['license_4',['License',['../index.html#autotoc_md27',1,'']]],
+  ['linux_20macos_20windows_20strong_5',['&lt;strong&gt;1. Basic Build (Linux/macOS/Windows)&lt;/strong&gt;',['../index.html#autotoc_md8',1,'']]],
+  ['loadmapfromxmlelement_6',['loadMapFromXMLElement',['../classadul_1_1atm_1_1_x_m_l_map.html#af4e7db90a0797246beeda1023683a429',1,'adul::atm::XMLMap']]],
+  ['loadmapfromxmlfile_7',['loadMapFromXMLFile',['../classadul_1_1atm_1_1_x_m_l_map.html#a7203c98351269ea27cf8a2cc7ce5287e',1,'adul::atm::XMLMap']]],
+  ['logger_8',['Logger',['../classadul_1_1logs_1_1_logger.html',1,'adul::logs::Logger'],['../classadul_1_1logs_1_1_logger.html#a980fc839d6b73786602ac1e85c789a0e',1,'adul::logs::Logger::Logger()']]],
+  ['logs_2ehpp_9',['logs.hpp',['../logs_8hpp.html',1,'']]]
 ];

@@ -1,5 +1,5 @@
-#ifndef ADUL_BITVECTOR
-#define ADUL_BITVECTOR
+#ifndef ADUL_BITVECTOR_HPP
+#define ADUL_BITVECTOR_HPP
 
 #include <cstdint>
 #include <vector>

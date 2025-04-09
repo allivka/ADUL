@@ -9,7 +9,7 @@
 namespace adul{};
 
 #include "ADUL/exceptions.hpp"
-#include "ADUL/logger.hpp"
+#include "ADUL/logs.hpp"
 #include "ADUL/time.hpp"
 #include "ADUL/smallUtils.hpp"
 #include "ADUL/atm.hpp"
